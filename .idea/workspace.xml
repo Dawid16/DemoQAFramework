@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89d3d62b-2c3f-418e-9f5a-1c749025911b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Utilities/DriverFactory$1.class" afterPath="$PROJECT_DIR$/target/classes/Utilities/DriverFactory$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Utilities/DriverFactory$BrowserType.class" afterPath="$PROJECT_DIR$/target/classes/Utilities/DriverFactory$BrowserType.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Utilities/DriverFactory.class" afterPath="$PROJECT_DIR$/target/classes/Utilities/DriverFactory.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/local.properties" afterPath="$PROJECT_DIR$/src/test/resources/local.properties" />
     </list>
     <ignored path="DemoQA.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,7 +40,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="local.properties" pinned="false" current-in-tab="false">
+      <file leaf-file-name="local.properties" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/resources/local.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
@@ -46,7 +50,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DriverFactory.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DriverFactory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Utilities/DriverFactory.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
@@ -54,6 +58,16 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="runRegistrationTest.bat" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/runRegistrationTest.bat">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -119,11 +133,11 @@
         <option value="$PROJECT_DIR$/src/main/java/BaseTest/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Pages/RegistrationPage.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/resources/local.properties" />
         <option value="$PROJECT_DIR$/src/test/java/MainTests/RegistrationTest.java" />
         <option value="$PROJECT_DIR$/runRegistrationTest.bat" />
         <option value="$PROJECT_DIR$/src/main/java/BaseTest/ConfigurationForBrowser.java" />
         <option value="$PROJECT_DIR$/src/main/java/Utilities/DriverFactory.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/local.properties" />
       </list>
     </option>
   </component>
@@ -891,8 +905,8 @@
     <history-entry file="RegistrationTest - 2018.02.14 at 13h 02m 33s.xml">
       <configuration name="RegistrationTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RegistrationTest_testLoginRegistrationPage - 2018.02.13 at 19h 04m 42s.xml">
-      <configuration name="RegistrationTest.testLoginRegistrationPage" configurationId="TestNG" />
+    <history-entry file="RegistrationTest - 2018.02.14 at 14h 41m 50s.xml">
+      <configuration name="RegistrationTest" configurationId="TestNG" />
     </history-entry>
     <history-entry file="RegistrationTest_testLoginRegistrationPage - 2018.02.13 at 19h 08m 53s.xml">
       <configuration name="RegistrationTest.testLoginRegistrationPage" configurationId="TestNG" />
@@ -1212,14 +1226,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/runRegistrationTest.bat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Pages/RegistrationPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="303">
@@ -1299,10 +1305,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/local.properties">
+    <entry file="file://$PROJECT_DIR$/runRegistrationTest.bat">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        <state relative-caret-position="34">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -1314,6 +1320,14 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/local.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
