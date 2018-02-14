@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="MainTests.RegistrationTest" duration-ms="29270" started-at="2018-02-13T18:57:12Z" finished-at="2018-02-13T18:57:42Z">
+    <groups>
+      <group name="registration">
+        <method signature="RegistrationTest.testLoginRegistrationPage()[pri:0, instance:MainTests.RegistrationTest@34ce8af7]" name="testLoginRegistrationPage" class="MainTests.RegistrationTest"/>
+      </group> <!-- registration -->
+    </groups>
+    <test name="Command line test" duration-ms="29270" started-at="2018-02-13T18:57:12Z" finished-at="2018-02-13T18:57:42Z">
+      <class name="MainTests.RegistrationTest">
+        <test-method status="PASS" signature="browserSetup()[pri:0, instance:MainTests.RegistrationTest@34ce8af7]" name="browserSetup" is-config="true" duration-ms="11077" started-at="2018-02-13T19:57:12Z" finished-at="2018-02-13T19:57:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:MainTests.RegistrationTest@34ce8af7]" name="setup" is-config="true" duration-ms="100" started-at="2018-02-13T19:57:24Z" finished-at="2018-02-13T19:57:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testLoginRegistrationPage()[pri:0, instance:MainTests.RegistrationTest@34ce8af7]" name="testLoginRegistrationPage" duration-ms="17786" started-at="2018-02-13T19:57:24Z" finished-at="2018-02-13T19:57:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginRegistrationPage -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:MainTests.RegistrationTest@34ce8af7]" name="teardown" is-config="true" duration-ms="280" started-at="2018-02-13T19:57:41Z" finished-at="2018-02-13T19:57:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- MainTests.RegistrationTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- MainTests.RegistrationTest -->
+</testng-results>

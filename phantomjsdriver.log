@@ -1,0 +1,26 @@
+[INFO  - 2018-02-13T18:15:48.465Z] GhostDriver - Main - running on port 2276
+[INFO  - 2018-02-13T18:15:50.531Z] Session [ebd8d2c0-10e9-11e8-8018-c10265b4094c] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-02-13T18:15:50.532Z] Session [ebd8d2c0-10e9-11e8-8018-c10265b4094c] - page.customHeaders:  - {}
+[INFO  - 2018-02-13T18:15:50.532Z] Session [ebd8d2c0-10e9-11e8-8018-c10265b4094c] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-7-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-02-13T18:15:50.533Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: ebd8d2c0-10e9-11e8-8018-c10265b4094c
+[ERROR - 2018-02-13T18:16:03.746Z] Session [ebd8d2c0-10e9-11e8-8018-c10265b4094c] - page.onError - msg: ReferenceError: Can't find variable: accordion
+[ERROR - 2018-02-13T18:16:03.747Z] Session [ebd8d2c0-10e9-11e8-8018-c10265b4094c] - page.onError - stack:
+  global code (http://demoqa.com/registration/:514)
+[ERROR - 2018-02-13T18:16:17.926Z] Session [ebd8d2c0-10e9-11e8-8018-c10265b4094c] - page.onError - msg: ReferenceError: Can't find variable: accordion
+[ERROR - 2018-02-13T18:16:17.927Z] Session [ebd8d2c0-10e9-11e8-8018-c10265b4094c] - page.onError - stack:
+  global code (http://demoqa.com/registration/:514)
+[INFO  - 2018-02-13T18:20:48.527Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-13T18:20:48.528Z] SessionManagerReqHand - _cleanupWindowlessSessions - Deleted Session 'ebd8d2c0-10e9-11e8-8018-c10265b4094c', because windowless
+[INFO  - 2018-02-13T18:32:27.597Z] GhostDriver - Main - running on port 5855
+[INFO  - 2018-02-13T18:32:28.431Z] Session [3ea531e0-10ec-11e8-85e8-110a0cbd3f9d] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-02-13T18:32:28.432Z] Session [3ea531e0-10ec-11e8-85e8-110a0cbd3f9d] - page.customHeaders:  - {}
+[INFO  - 2018-02-13T18:32:28.432Z] Session [3ea531e0-10ec-11e8-85e8-110a0cbd3f9d] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-7-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-02-13T18:32:28.433Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 3ea531e0-10ec-11e8-85e8-110a0cbd3f9d
+[ERROR - 2018-02-13T18:32:34.397Z] Session [3ea531e0-10ec-11e8-85e8-110a0cbd3f9d] - page.onError - msg: ReferenceError: Can't find variable: accordion
+[ERROR - 2018-02-13T18:32:34.398Z] Session [3ea531e0-10ec-11e8-85e8-110a0cbd3f9d] - page.onError - stack:
+  global code (http://demoqa.com/registration/:514)
+[ERROR - 2018-02-13T18:32:47.945Z] Session [3ea531e0-10ec-11e8-85e8-110a0cbd3f9d] - page.onError - msg: ReferenceError: Can't find variable: accordion
+[ERROR - 2018-02-13T18:32:47.946Z] Session [3ea531e0-10ec-11e8-85e8-110a0cbd3f9d] - page.onError - stack:
+  global code (http://demoqa.com/registration/:514)
+[INFO  - 2018-02-13T18:37:27.757Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-13T18:37:27.758Z] SessionManagerReqHand - _cleanupWindowlessSessions - Deleted Session '3ea531e0-10ec-11e8-85e8-110a0cbd3f9d', because windowless
