@@ -17,20 +17,11 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/TestsResults/TestsResults20180214011547.csv" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/TestsResults/TestsResults20180214011911.csv" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/TestsResults/TestsResults20180214125613.csv" afterPath="" />
-    </list>
-    <list id="f3b2a018-7b10-4e5a-8960-bde0e1a95441" name="Rejected commit: Default" comment="Log4j, poprawki">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/BaseTest/ConfigurationForBrowser.class" afterPath="$PROJECT_DIR$/target/classes/BaseTest/ConfigurationForBrowser.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Pages/BaseExtendedPage.class" afterPath="$PROJECT_DIR$/target/classes/Pages/BaseExtendedPage.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Pages/RegistrationPage.class" afterPath="$PROJECT_DIR$/target/classes/Pages/RegistrationPage.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Utilities/DriverFactory.class" afterPath="$PROJECT_DIR$/target/classes/Utilities/DriverFactory.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DemoQA.iml" afterPath="$PROJECT_DIR$/DemoQA.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phantomjsdriver.log" afterPath="$PROJECT_DIR$/phantomjsdriver.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/BaseTest/ConfigurationForBrowser.java" afterPath="$PROJECT_DIR$/src/main/java/BaseTest/ConfigurationForBrowser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Pages/BaseExtendedPage.java" afterPath="$PROJECT_DIR$/src/main/java/Pages/BaseExtendedPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Pages/RegistrationPage.java" afterPath="$PROJECT_DIR$/src/main/java/Pages/RegistrationPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Utilities/DriverFactory.java" afterPath="$PROJECT_DIR$/src/main/java/Utilities/DriverFactory.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/local.properties" afterPath="$PROJECT_DIR$/target/test-classes/local.properties" />
     </list>
     <ignored path="DemoQA.iws" />
@@ -769,7 +760,14 @@
       <option name="project" value="LOCAL" />
       <updated>1518616678007</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Log4j, poprawki">
+      <created>1518719051183</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1518719051183</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -825,7 +823,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46928328" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4675768" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.86860067" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.83959043" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -868,6 +866,24 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24061434" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
