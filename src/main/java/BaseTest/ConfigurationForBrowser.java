@@ -1,6 +1,8 @@
 package BaseTest;
 
 import Utilities.DriverFactory;
+import Utilities.TestLogger;
+import org.apache.log4j.Level;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterClass;
@@ -26,11 +28,12 @@ public class ConfigurationForBrowser {
         this.driver = getDriver(DriverFactory.getBrowserTypeByProperty());
         driver.manage().timeouts().implicitlyWait(BASE_TIMEOUTS_SECONDS, TimeUnit.SECONDS);
         _wait = new WebDriverWait(driver, BASE_TIMEOUTS_SECONDS);
+        TestLogger.log.setLevel(Level.ALL);
     }
 
     @AfterClass(alwaysRun = true)
     public void teardown(){
-        System.out.println("AfterClass is executing ...");
+        TestLogger.log.info("AfterClass is executing ...");
         this.driver.close();
     }
 

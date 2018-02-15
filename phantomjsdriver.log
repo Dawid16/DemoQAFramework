@@ -24,3 +24,29 @@
   global code (http://demoqa.com/registration/:514)
 [INFO  - 2018-02-13T18:37:27.757Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
 [INFO  - 2018-02-13T18:37:27.758Z] SessionManagerReqHand - _cleanupWindowlessSessions - Deleted Session '3ea531e0-10ec-11e8-85e8-110a0cbd3f9d', because windowless
+[INFO  - 2018-02-14T18:21:44.882Z] GhostDriver - Main - running on port 10619
+[INFO  - 2018-02-14T18:21:46.072Z] Session [ea2dfa20-11b3-11e8-8a17-6379fbc46efe] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-02-14T18:21:46.072Z] Session [ea2dfa20-11b3-11e8-8a17-6379fbc46efe] - page.customHeaders:  - {}
+[INFO  - 2018-02-14T18:21:46.073Z] Session [ea2dfa20-11b3-11e8-8a17-6379fbc46efe] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-7-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-02-14T18:21:46.073Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: ea2dfa20-11b3-11e8-8a17-6379fbc46efe
+[ERROR - 2018-02-14T18:21:53.019Z] Session [ea2dfa20-11b3-11e8-8a17-6379fbc46efe] - page.onError - msg: ReferenceError: Can't find variable: accordion
+[ERROR - 2018-02-14T18:21:53.024Z] Session [ea2dfa20-11b3-11e8-8a17-6379fbc46efe] - page.onError - stack:
+  global code (http://demoqa.com/registration/:514)
+[ERROR - 2018-02-14T18:22:10.827Z] Session [ea2dfa20-11b3-11e8-8a17-6379fbc46efe] - page.onError - msg: ReferenceError: Can't find variable: accordion
+[ERROR - 2018-02-14T18:22:10.828Z] Session [ea2dfa20-11b3-11e8-8a17-6379fbc46efe] - page.onError - stack:
+  global code (http://demoqa.com/registration/:514)
+[INFO  - 2018-02-14T18:26:45.187Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-14T18:26:45.188Z] SessionManagerReqHand - _cleanupWindowlessSessions - Deleted Session 'ea2dfa20-11b3-11e8-8a17-6379fbc46efe', because windowless
+[INFO  - 2018-02-15T17:48:10.597Z] GhostDriver - Main - running on port 40039
+[INFO  - 2018-02-15T17:48:12.879Z] Session [64a21740-1278-11e8-8220-a36d7bc35e18] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-02-15T17:48:12.880Z] Session [64a21740-1278-11e8-8220-a36d7bc35e18] - page.customHeaders:  - {}
+[INFO  - 2018-02-15T17:48:12.880Z] Session [64a21740-1278-11e8-8220-a36d7bc35e18] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-7-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-02-15T17:48:12.880Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 64a21740-1278-11e8-8220-a36d7bc35e18
+[ERROR - 2018-02-15T17:48:23.024Z] Session [64a21740-1278-11e8-8220-a36d7bc35e18] - page.onError - msg: ReferenceError: Can't find variable: accordion
+[ERROR - 2018-02-15T17:48:23.025Z] Session [64a21740-1278-11e8-8220-a36d7bc35e18] - page.onError - stack:
+  global code (http://demoqa.com/registration/:514)
+[ERROR - 2018-02-15T17:48:40.060Z] Session [64a21740-1278-11e8-8220-a36d7bc35e18] - page.onError - msg: ReferenceError: Can't find variable: accordion
+[ERROR - 2018-02-15T17:48:40.061Z] Session [64a21740-1278-11e8-8220-a36d7bc35e18] - page.onError - stack:
+  global code (http://demoqa.com/registration/:514)
+[INFO  - 2018-02-15T17:53:10.825Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-15T17:53:10.827Z] SessionManagerReqHand - _cleanupWindowlessSessions - Deleted Session '64a21740-1278-11e8-8220-a36d7bc35e18', because windowless

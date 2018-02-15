@@ -1,6 +1,8 @@
 package Pages;
 
+import Utilities.TestLogger;
 import org.apache.commons.io.FileUtils;
+import org.apache.log4j.Level;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -61,11 +63,11 @@ public class BaseExtendedPage {
         try{
             TakesScreenshot ts = (TakesScreenshot)driver;
             File source = ts.getScreenshotAs(OutputType.FILE);
-            FileUtils.copyFile(source, new File("D:\\DemoQA\\TestsResults" + screenShotName + ".png"));
-            System.out.println("Screenshot taken " + screenShotName + ".png");
+            FileUtils.copyFile(source, new File("D:\\DemoQA\\TestsResults\\TestsResults" + screenShotName + ".png"));
+            TestLogger.log.debug("Screenshot taken " + screenShotName + ".png");
         }
         catch (Exception e){
-            System.out.println("Exception while taking screenshot \n" + e.getMessage());
+            TestLogger.log.error("Exception while taking screenshot \n" + e.getMessage());
         }
 
     }

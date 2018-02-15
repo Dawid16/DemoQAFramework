@@ -1,6 +1,7 @@
 package Pages;
 
 import Utilities.RandomValuesGenerator;
+import Utilities.TestLogger;
 import Utilities.Waits;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.FindBy;
@@ -14,7 +15,7 @@ import java.util.List;
  */
 public class RegistrationPage extends BaseExtendedPage {
 
-    @FindBy(id = "name_3_firstname") WebElement firstNameField;
+    @FindBy(id = "nam_3_firstname") WebElement firstNameField;
     @FindBy(id = "name_3_lastname") WebElement lastNameField;
     @FindBy(xpath = "//input[@value = 'married']") WebElement maritalRadioButton;
     @FindBy(xpath = "//input[@type = 'checkbox']") List<WebElement> hobbyCheckBox;
@@ -57,36 +58,36 @@ public class RegistrationPage extends BaseExtendedPage {
 
         for(WebElement checkBox : elements) {
             clickOnElement(checkBox);
-            System.out.println("CheckBox " + checkBox.getAttribute("value") + " was clicked");
+            TestLogger.log.info("CheckBox " + checkBox.getAttribute("value") + " was clicked");
         }
     }
 
     public void selectCountryFromList(String country){
         selectValueFromDropdown(countryDropDown, country);
-        System.out.println("Country " + country + " was clicked");
+        TestLogger.log.info("Country " + country + " was clicked");
     }
 
     public void setTextOnPhoneNumberField(String phoneNumber){
         setTextOnElement(phoneNumberField, phoneNumber);
-        System.out.println("Phone number: " + phoneNumber + " was typed");
+        TestLogger.log.info("Phone number: " + phoneNumber + " was typed");
     }
 
     public void setRandomTextOnUserNameField(){
         String userName = RandomValuesGenerator.generateRandomUserName();
         setTextOnElement(userNameField, userName);
-        System.out.println("Username: " + userName + " was typed");
+        TestLogger.log.info("Username: " + userName + " was typed");
     }
 
     public void setRandomTextOnEmailField(){
         String email = RandomValuesGenerator.generateRandomEmail();
         setTextOnElement(emailField, email);
-        System.out.println("Username: " + email + " was typed");
+        TestLogger.log.info("Username: " + email + " was typed");
     }
 
     public void fillthePasswordsFields(String pass){
         setTextOnElement(passwordField, pass);
         setTextOnElement(confirmationPasswordField, pass);
-        System.out.println("Password: " + pass + " was typed");
+        TestLogger.log.info("Password: " + pass + " was typed");
     }
 
     public void clickSubmitButton() {
@@ -98,7 +99,7 @@ public class RegistrationPage extends BaseExtendedPage {
         selectValueFromDropdown(dayDropDown, day);
         selectValueFromDropdown(monthDropDown, month);
         selectValueFromDropdown(yearDropDown, year);
-        System.out.println("Date of birth: " + day + " " + month + " " + year + " was chosen");
+        TestLogger.log.info("Date of birth: " + day + " " + month + " " + year + " was chosen");
     }
 
     public void addAttachment(String pathToAttachment, String attName) throws Exception{
@@ -112,16 +113,16 @@ public class RegistrationPage extends BaseExtendedPage {
         Runtime.getRuntime().exec(pathToAttachment);
         wait.until(ExpectedConditions.elementToBeClickable(addAttachmentButton));
         Assert.assertEquals(addAttachmentButton.getAttribute("value"), "C:\\fakepath\\" + attName);
-        System.out.println("Attachment added: " + addAttachmentButton.getAttribute("value"));
+        TestLogger.log.info("Attachment added: " + addAttachmentButton.getAttribute("value"));
     }
 
     public boolean verifyLoggingHeader() {
         try {
             if(registeredCorrectHeader.isDisplayed()){
-                System.out.println("Correctly registered - OK");
+                TestLogger.log.info("Correctly registered - OK");
             }
             else if(registeredIncorrectHeader.isDisplayed()){
-                System.out.println("Incorrectly registered - OK");
+                TestLogger.log.info("Incorrectly registered - OK");
             }
         } catch(NoSuchElementException e){
             return false;

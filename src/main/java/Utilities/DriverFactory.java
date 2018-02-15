@@ -75,7 +75,7 @@ public class DriverFactory {
         for(BrowserType bType : BrowserType.values()){
             if(bType.getBrowserName().equalsIgnoreCase(browserName)){
                 type = bType;
-                System.out.println("BROWSER = " + type.getBrowserName());
+                TestLogger.log.info("BROWSER = " + type.getBrowserName());
             }
         }
         return type;
