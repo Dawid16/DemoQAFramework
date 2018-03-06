@@ -2,11 +2,7 @@ package Pages;
 
 import Utilities.TestLogger;
 import org.apache.commons.io.FileUtils;
-import org.apache.log4j.Level;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -16,17 +12,19 @@ import java.io.File;
 /**
  * Created by Dawidek on 2018-02-04.
  */
-public class BaseExtendedPage {
+public class BaseExtendablePage {
 
     public static WebDriver driver;
     public WebDriverWait wait;
+    protected JavascriptExecutor jsExecutor;
 
     public String PAGE_TITLE;
     public String PAGE_URL;
 
 
-    public BaseExtendedPage(WebDriver driver){
+    public BaseExtendablePage(WebDriver driver){
         this.driver = driver;
+        jsExecutor = ((JavascriptExecutor) driver);
         wait = new WebDriverWait(driver, 5, 1000);
     }
 
@@ -69,8 +67,11 @@ public class BaseExtendedPage {
         catch (Exception e){
             TestLogger.log.error("Exception while taking screenshot \n" + e.getMessage());
         }
-
     }
+
+
+
+
 
 
 

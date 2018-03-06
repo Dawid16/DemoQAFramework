@@ -1,9 +1,12 @@
 package Pages;
 
+import Utilities.DriverFactory;
 import Utilities.RandomValuesGenerator;
 import Utilities.TestLogger;
 import Utilities.Waits;
+import junitx.util.PropertyManager;
 import org.openqa.selenium.*;
+import org.openqa.selenium.remote.BrowserType;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
@@ -13,9 +16,9 @@ import java.util.List;
 /**
  * Created by Dawidek on 2018-01-31.
  */
-public class RegistrationPage extends BaseExtendedPage {
+public class RegistrationPage extends BaseExtendablePage {
 
-    @FindBy(id = "nam_3_firstname") WebElement firstNameField;
+    @FindBy(id = "name_3_firstname") WebElement firstNameField;
     @FindBy(id = "name_3_lastname") WebElement lastNameField;
     @FindBy(xpath = "//input[@value = 'married']") WebElement maritalRadioButton;
     @FindBy(xpath = "//input[@type = 'checkbox']") List<WebElement> hobbyCheckBox;
@@ -104,13 +107,14 @@ public class RegistrationPage extends BaseExtendedPage {
 
     public void addAttachment(String pathToAttachment, String attName) throws Exception{
         Thread.sleep(1000);
-        //JavascriptExecutor executor = (JavascriptExecutor)driver;   //getBrowserName po tutorialach capabilities
-        addAttachmentButton.click();
-        // Thread.sleep(1000);
-        //executor.executeScript("arguments[0].click();", el);  (dla Mozilli
-        //addAttachmentButton.click();
-        Thread.sleep(1000);                                                                 //zmienić później
-        Runtime.getRuntime().exec(pathToAttachment);
+        if(PropertyManager.getProperty("BROWSER").equalsIgnoreCase("firefox")) {
+            jsExecutor.executeScript("arguments[0].click();", addAttachmentButton);
+            //Runtime for Mozilla
+        } else {
+            addAttachmentButton.click();
+            Runtime.getRuntime().exec(pathToAttachment);
+        }
+        Thread.sleep(1000);
         wait.until(ExpectedConditions.elementToBeClickable(addAttachmentButton));
         Assert.assertEquals(addAttachmentButton.getAttribute("value"), "C:\\fakepath\\" + attName);
         TestLogger.log.info("Attachment added: " + addAttachmentButton.getAttribute("value"));

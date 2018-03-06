@@ -1,6 +1,6 @@
 package Utilities;
 
-import Pages.BaseExtendedPage;
+import Pages.BaseExtendablePage;
 import org.testng.ITestContext;
 import org.testng.ITestResult;
 import org.testng.TestListenerAdapter;
@@ -33,7 +33,7 @@ public class TestListener extends TestListenerAdapter {
     @Override
     public void onTestFailure(ITestResult testResult){
         System.out.println(testResult.getName() + " was failure. \n Throwable " + testResult.getThrowable().getMessage());
-        BaseExtendedPage.captureScreenshot(RandomValuesGenerator.getCurrentDate());
+        BaseExtendablePage.captureScreenshot(RandomValuesGenerator.getCurrentDate());
         testsresults.incrementFailed();
         System.out.println("FAILED TESTS " + testsresults.getFailed());
         System.out.println("TOTAL TESTS " + testsresults.getTotalTests());

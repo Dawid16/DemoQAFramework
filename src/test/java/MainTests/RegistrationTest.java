@@ -32,7 +32,7 @@ public class RegistrationTest extends ConfigurationForBrowser{
 
     }
 
-    @Test(groups = "registration")
+    @Test(groups = "logging")
     public void testLoginRegistrationPage() throws Exception{
         driver.manage().deleteAllCookies();
         registrationPage.loadPage();
@@ -49,7 +49,7 @@ public class RegistrationTest extends ConfigurationForBrowser{
         registrationPage.setRandomTextOnUserNameField();
         registrationPage.setRandomTextOnEmailField();
         registrationPage.fillthePasswordsFields("asdfghjkl1234.,");
-        //registrationPage.addAttachment("D://DemoQA//AutoIT//Fileupload.exe", "IMG_20170930_174713.jpg"); //dorobic dla Chrome i Mozilli(inna nazwa okna windowsowego, dla mozilli js executor)
+        registrationPage.addAttachment("D://DemoQA//AutoIT//Fileupload.exe", "IMG_20170930_174713.jpg"); //dorobic dla Chrome i Mozilli(inna nazwa okna windowsowego, dla mozilli js executor)
         registrationPage.clickSubmitButton();
         registrationPage.verifyLoggingHeader();
     }
