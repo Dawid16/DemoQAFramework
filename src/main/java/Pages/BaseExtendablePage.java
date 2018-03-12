@@ -1,8 +1,10 @@
 package Pages;
 
 import Utilities.TestLogger;
+import Utilities.Waits;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -41,6 +43,7 @@ public class BaseExtendablePage {
 
     public void clickOnElement(WebElement element){
         element.click();
+        Waits.visibilityOfElement(element);
     }
 
     public void selectValueFromDropdown(WebElement element, String value){
@@ -56,7 +59,6 @@ public class BaseExtendablePage {
         return PAGE_TITLE;
     }
 
-
     public static void captureScreenshot(String screenShotName){
         try{
             TakesScreenshot ts = (TakesScreenshot)driver;
@@ -68,12 +70,5 @@ public class BaseExtendablePage {
             TestLogger.log.error("Exception while taking screenshot \n" + e.getMessage());
         }
     }
-
-
-
-
-
-
-
 
 }

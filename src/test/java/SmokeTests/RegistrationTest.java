@@ -1,4 +1,4 @@
-package MainTests;
+package SmokeTests;
 
 import BaseTest.ConfigurationForBrowser;
 import Pages.RegistrationPage;

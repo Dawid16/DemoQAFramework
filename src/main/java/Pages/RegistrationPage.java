@@ -106,15 +106,14 @@ public class RegistrationPage extends BaseExtendablePage {
     }
 
     public void addAttachment(String pathToAttachment, String attName) throws Exception{
-        Thread.sleep(1000);
         if(PropertyManager.getProperty("BROWSER").equalsIgnoreCase("firefox")) {
             jsExecutor.executeScript("arguments[0].click();", addAttachmentButton);
             //Runtime for Mozilla
         } else {
             addAttachmentButton.click();
+            Thread.sleep(1000);
             Runtime.getRuntime().exec(pathToAttachment);
         }
-        Thread.sleep(1000);
         wait.until(ExpectedConditions.elementToBeClickable(addAttachmentButton));
         Assert.assertEquals(addAttachmentButton.getAttribute("value"), "C:\\fakepath\\" + attName);
         TestLogger.log.info("Attachment added: " + addAttachmentButton.getAttribute("value"));

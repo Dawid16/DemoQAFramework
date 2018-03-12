@@ -1,0 +1,129 @@
+2018-03-12 14:41:49,727 - Utilities.TestLogger -INFO - BROWSER = chrome
+2018-03-12 14:42:12,502 - Utilities.TestLogger -INFO - AfterClass is executing ...
+2018-03-12 14:42:28,361 - Utilities.TestLogger -INFO - BROWSER = chrome
+2018-03-12 14:42:41,318 - Utilities.TestLogger -INFO - Photo clicked
+2018-03-12 14:42:42,557 - Utilities.TestLogger -INFO - Photo clicked
+2018-03-12 14:42:43,473 - Utilities.TestLogger -INFO - Photo clicked
+2018-03-12 14:42:44,701 - Utilities.TestLogger -INFO - Element Tab 1 was clicked
+2018-03-12 14:42:45,460 - Utilities.TestLogger -INFO - Element Tab 2 was clicked
+2018-03-12 14:42:45,789 - Utilities.TestLogger -INFO - Element Tab 3 was clicked
+2018-03-12 14:42:46,080 - Utilities.TestLogger -INFO - Element Tab 4 was clicked
+2018-03-12 14:42:46,415 - Utilities.TestLogger -INFO - Element Tab 5 was clicked
+2018-03-12 14:42:46,418 - Utilities.TestLogger -INFO - AfterClass is executing ...
+2018-03-12 14:42:55,928 - Utilities.TestLogger -INFO - BROWSER = chrome
+2018-03-12 14:43:09,202 - Utilities.TestLogger -INFO - CheckBox dance was clicked
+2018-03-12 14:43:09,352 - Utilities.TestLogger -INFO - CheckBox reading was clicked
+2018-03-12 14:43:09,516 - Utilities.TestLogger -INFO - CheckBox cricket  was clicked
+2018-03-12 14:43:09,843 - Utilities.TestLogger -INFO - Country Poland was clicked
+2018-03-12 14:43:11,356 - Utilities.TestLogger -INFO - Date of birth: 1 10 2014 was chosen
+2018-03-12 14:43:11,942 - Utilities.TestLogger -INFO - Phone number: 1234567890123 was typed
+2018-03-12 14:43:13,234 - Utilities.TestLogger -INFO - Username: uuidd48885ff-bfac-4402-a301-3d2667832d89 was typed
+2018-03-12 14:43:14,641 - Utilities.TestLogger -INFO - Username: uuid0551914a-57e1-49a2-9d1d-bf9d16960109@gmail.com was typed
+2018-03-12 14:43:16,019 - Utilities.TestLogger -INFO - Password: asdfghjkl1234., was typed
+2018-03-12 14:43:21,951 - Utilities.TestLogger -DEBUG - Screenshot taken 20180312024319.png
+2018-03-12 14:43:21,988 - Utilities.TestLogger -INFO - AfterClass is executing ...
+2018-03-12 14:46:17,339 - Utilities.TestLogger -INFO - BROWSER = chrome
+2018-03-12 14:46:34,328 - Utilities.TestLogger -INFO - CheckBox dance was clicked
+2018-03-12 14:46:34,491 - Utilities.TestLogger -INFO - CheckBox reading was clicked
+2018-03-12 14:46:34,659 - Utilities.TestLogger -INFO - CheckBox cricket  was clicked
+2018-03-12 14:46:35,016 - Utilities.TestLogger -INFO - Country Poland was clicked
+2018-03-12 14:46:36,275 - Utilities.TestLogger -INFO - Date of birth: 1 10 2014 was chosen
+2018-03-12 14:46:36,846 - Utilities.TestLogger -INFO - Phone number: 1234567890123 was typed
+2018-03-12 14:46:38,012 - Utilities.TestLogger -INFO - Username: uuidcb397b50-cb92-40f4-8dd3-225b153d2c00 was typed
+2018-03-12 14:46:39,468 - Utilities.TestLogger -INFO - Username: uuidb8c53f49-036c-4e72-8428-2263b4064145@gmail.com was typed
+2018-03-12 14:46:40,938 - Utilities.TestLogger -INFO - Password: asdfghjkl1234., was typed
+2018-03-12 14:46:44,424 - Utilities.TestLogger -DEBUG - Screenshot taken 20180312024643.png
+2018-03-12 14:46:44,454 - Utilities.TestLogger -INFO - AfterClass is executing ...
+2018-03-12 14:59:08,222 - Utilities.TestLogger -INFO - BROWSER = chrome
+2018-03-12 14:59:24,381 - Utilities.TestLogger -INFO - CheckBox dance was clicked
+2018-03-12 14:59:24,529 - Utilities.TestLogger -INFO - CheckBox reading was clicked
+2018-03-12 14:59:24,680 - Utilities.TestLogger -INFO - CheckBox cricket  was clicked
+2018-03-12 14:59:25,010 - Utilities.TestLogger -INFO - Country Poland was clicked
+2018-03-12 14:59:26,120 - Utilities.TestLogger -INFO - Date of birth: 1 10 2014 was chosen
+2018-03-12 14:59:26,687 - Utilities.TestLogger -INFO - Phone number: 1234567890123 was typed
+2018-03-12 14:59:27,902 - Utilities.TestLogger -INFO - Username: uuid285532c0-bc9d-4d7a-b381-65e0308625d3 was typed
+2018-03-12 14:59:29,598 - Utilities.TestLogger -INFO - Username: uuidecbb554c-79c3-46ce-82cf-d65f27afb0c4@gmail.com was typed
+2018-03-12 14:59:31,187 - Utilities.TestLogger -INFO - Password: asdfghjkl1234., was typed
+2018-03-12 14:59:34,528 - Utilities.TestLogger -DEBUG - Screenshot taken 20180312025933.png
+2018-03-12 14:59:34,642 - Utilities.TestLogger -INFO - AfterClass is executing ...
+2018-03-12 14:59:58,019 - Utilities.TestLogger -INFO - BROWSER = chrome
+2018-03-12 15:00:12,529 - Utilities.TestLogger -INFO - CheckBox dance was clicked
+2018-03-12 15:00:12,690 - Utilities.TestLogger -INFO - CheckBox reading was clicked
+2018-03-12 15:00:12,853 - Utilities.TestLogger -INFO - CheckBox cricket  was clicked
+2018-03-12 15:00:13,160 - Utilities.TestLogger -INFO - Country Poland was clicked
+2018-03-12 15:00:14,311 - Utilities.TestLogger -INFO - Date of birth: 1 10 2014 was chosen
+2018-03-12 15:00:15,035 - Utilities.TestLogger -INFO - Phone number: 1234567890123 was typed
+2018-03-12 15:00:16,787 - Utilities.TestLogger -INFO - Username: uuid3342df4d-2024-40b6-9c07-1b2416e1dc51 was typed
+2018-03-12 15:00:18,069 - Utilities.TestLogger -INFO - Username: uuid9e0326da-0200-4c1b-a574-41dbeb80e6e1@gmail.com was typed
+2018-03-12 15:00:19,475 - Utilities.TestLogger -INFO - Password: asdfghjkl1234., was typed
+2018-03-12 15:02:58,061 - Utilities.TestLogger -DEBUG - Screenshot taken 20180312030257.png
+2018-03-12 15:02:58,104 - Utilities.TestLogger -INFO - AfterClass is executing ...
+2018-03-12 15:07:38,622 - Utilities.TestLogger -INFO - BROWSER = chrome
+2018-03-12 15:07:55,708 - Utilities.TestLogger -INFO - CheckBox dance was clicked
+2018-03-12 15:07:55,864 - Utilities.TestLogger -INFO - CheckBox reading was clicked
+2018-03-12 15:07:56,056 - Utilities.TestLogger -INFO - CheckBox cricket  was clicked
+2018-03-12 15:07:56,442 - Utilities.TestLogger -INFO - Country Poland was clicked
+2018-03-12 15:07:57,638 - Utilities.TestLogger -INFO - Date of birth: 1 10 2014 was chosen
+2018-03-12 15:07:58,228 - Utilities.TestLogger -INFO - Phone number: 1234567890123 was typed
+2018-03-12 15:07:59,598 - Utilities.TestLogger -INFO - Username: uuideaee2f9a-e12a-4a00-ace3-1167ead455f6 was typed
+2018-03-12 15:08:00,999 - Utilities.TestLogger -INFO - Username: uuid7034da97-226b-47da-aad5-5f9b884dc028@gmail.com was typed
+2018-03-12 15:08:02,471 - Utilities.TestLogger -INFO - Password: asdfghjkl1234., was typed
+2018-03-12 15:08:06,390 - Utilities.TestLogger -DEBUG - Screenshot taken 20180312030805.png
+2018-03-12 15:08:06,431 - Utilities.TestLogger -INFO - AfterClass is executing ...
+2018-03-12 15:08:38,596 - Utilities.TestLogger -INFO - BROWSER = chrome
+2018-03-12 15:08:54,565 - Utilities.TestLogger -INFO - CheckBox dance was clicked
+2018-03-12 15:08:54,723 - Utilities.TestLogger -INFO - CheckBox reading was clicked
+2018-03-12 15:08:54,908 - Utilities.TestLogger -INFO - CheckBox cricket  was clicked
+2018-03-12 15:08:55,279 - Utilities.TestLogger -INFO - Country Poland was clicked
+2018-03-12 15:08:56,497 - Utilities.TestLogger -INFO - Date of birth: 1 10 2014 was chosen
+2018-03-12 15:08:57,058 - Utilities.TestLogger -INFO - Phone number: 1234567890123 was typed
+2018-03-12 15:08:58,278 - Utilities.TestLogger -INFO - Username: uuid0a95e5ec-e224-4036-9629-84beccd47e7f was typed
+2018-03-12 15:08:59,698 - Utilities.TestLogger -INFO - Username: uuid94035c0e-ed06-40c6-9502-144d185c14c1@gmail.com was typed
+2018-03-12 15:09:01,241 - Utilities.TestLogger -INFO - Password: asdfghjkl1234., was typed
+2018-03-12 15:09:04,935 - Utilities.TestLogger -INFO - Attachment added: C:\fakepath\IMG_20170930_174713.jpg
+2018-03-12 15:09:38,574 - Utilities.TestLogger -ERROR - Exception while taking screenshot 
+chrome not reachable
+  (Session info: chrome=64.0.3282.186)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'DAWID', ip: '172.16.1.123', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Dawidek\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.186, webStorageEnabled: true}
+Session ID: 3c32e191468cdce06b8e6f0b9143a56f
+2018-03-12 15:09:38,644 - Utilities.TestLogger -INFO - AfterClass is executing ...
+2018-03-12 15:09:51,525 - Utilities.TestLogger -INFO - BROWSER = chrome
+2018-03-12 15:10:05,357 - Utilities.TestLogger -INFO - CheckBox dance was clicked
+2018-03-12 15:10:05,575 - Utilities.TestLogger -INFO - CheckBox reading was clicked
+2018-03-12 15:10:05,768 - Utilities.TestLogger -INFO - CheckBox cricket  was clicked
+2018-03-12 15:10:06,372 - Utilities.TestLogger -INFO - Country Poland was clicked
+2018-03-12 15:10:07,850 - Utilities.TestLogger -INFO - Date of birth: 1 10 2014 was chosen
+2018-03-12 15:10:08,797 - Utilities.TestLogger -INFO - Phone number: 1234567890123 was typed
+2018-03-12 15:10:09,977 - Utilities.TestLogger -INFO - Username: uuid84e43af0-3f54-4153-9447-f18d8f9d446c was typed
+2018-03-12 15:10:11,302 - Utilities.TestLogger -INFO - Username: uuid1491a7e6-9322-4a24-aef1-723aab95fec4@gmail.com was typed
+2018-03-12 15:10:12,654 - Utilities.TestLogger -INFO - Password: asdfghjkl1234., was typed
+2018-03-12 15:10:15,281 - Utilities.TestLogger -INFO - Attachment added: C:\fakepath\IMG_20170930_174713.jpg
+2018-03-12 15:10:25,765 - Utilities.TestLogger -ERROR - Exception while taking screenshot 
+chrome not reachable
+  (Session info: chrome=64.0.3282.186)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'DAWID', ip: '172.16.1.123', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Dawidek\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.186, webStorageEnabled: true}
+Session ID: 41b1a54f31bacf3df909c5122e1d0293
+2018-03-12 15:10:25,827 - Utilities.TestLogger -INFO - AfterClass is executing ...
+2018-03-12 15:10:56,865 - Utilities.TestLogger -INFO - BROWSER = chrome
+2018-03-12 15:11:16,852 - Utilities.TestLogger -INFO - CheckBox dance was clicked
+2018-03-12 15:11:17,044 - Utilities.TestLogger -INFO - CheckBox reading was clicked
+2018-03-12 15:11:17,236 - Utilities.TestLogger -INFO - CheckBox cricket  was clicked
+2018-03-12 15:11:17,574 - Utilities.TestLogger -INFO - Country Poland was clicked
+2018-03-12 15:11:18,879 - Utilities.TestLogger -INFO - Date of birth: 1 10 2014 was chosen
+2018-03-12 15:11:19,717 - Utilities.TestLogger -INFO - Phone number: 1234567890123 was typed
+2018-03-12 15:11:20,962 - Utilities.TestLogger -INFO - Username: uuidd14ff75a-b39a-48d7-badf-856f42f8094f was typed
+2018-03-12 15:11:22,208 - Utilities.TestLogger -INFO - Username: uuid7c3f9ab6-6e21-43c4-a8f9-fbb14324f5cf@gmail.com was typed
+2018-03-12 15:11:24,059 - Utilities.TestLogger -INFO - Password: asdfghjkl1234., was typed
+2018-03-12 15:11:26,314 - Utilities.TestLogger -INFO - Attachment added: C:\fakepath\IMG_20170930_174713.jpg
+2018-03-12 15:12:09,301 - Utilities.TestLogger -INFO - Correctly registered - OK
+2018-03-12 15:12:09,305 - Utilities.TestLogger -INFO - AfterClass is executing ...

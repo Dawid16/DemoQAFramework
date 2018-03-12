@@ -10,8 +10,8 @@
             </run>
         </groups>
         <classes>
-            <class name = "MainTests.RegistrationTest"></class>
-            <class name = "MainTests.AnotherTest"></class>
+            <class name = "SmokeTests.RegistrationTest"></class>
+            <class name = "SmokeTests.AnotherTest"></class>
         </classes>
     </test>
 </suite>
