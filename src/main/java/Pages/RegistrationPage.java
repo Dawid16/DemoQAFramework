@@ -1,12 +1,10 @@
 package Pages;
 
-import Utilities.DriverFactory;
 import Utilities.RandomValuesGenerator;
 import Utilities.TestLogger;
 import Utilities.Waits;
 import junitx.util.PropertyManager;
 import org.openqa.selenium.*;
-import org.openqa.selenium.remote.BrowserType;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
@@ -18,8 +16,8 @@ import java.util.List;
  */
 public class RegistrationPage extends BaseExtendablePage {
 
-    @FindBy(id = "name_3_firstname") WebElement firstNameField;
-    @FindBy(id = "name_3_lastname") WebElement lastNameField;
+    @FindBy(id = "name_3_firstname") protected WebElement firstNameField;
+    @FindBy(id = "name_3_lastname") protected WebElement lastNameField;
     @FindBy(xpath = "//input[@value = 'married']") WebElement maritalRadioButton;
     @FindBy(xpath = "//input[@type = 'checkbox']") List<WebElement> hobbyCheckBox;
     @FindBy(id = "dropdown_7")  WebElement countryDropDown;
@@ -45,14 +43,17 @@ public class RegistrationPage extends BaseExtendablePage {
 
     public void setTextFirstNameField(String text){
         setTextOnElement(firstNameField, text);
+        TestLogger.log.info("Text set in FirstNameField: "+ text);
     }
 
     public void setTextLastNameField(String text){
         setTextOnElement(lastNameField, text);
+        TestLogger.log.info("Text set in FirstNameField: "+ text);
     }
 
     public void clickMaritalRadioButton(){
         clickOnElement(maritalRadioButton);
+        TestLogger.log.info("Marital radioButton clicked");
     }
 
     public void tickAllCheckboxHobbies(){
@@ -67,7 +68,7 @@ public class RegistrationPage extends BaseExtendablePage {
 
     public void selectCountryFromList(String country){
         selectValueFromDropdown(countryDropDown, country);
-        TestLogger.log.info("Country " + country + " was clicked");
+        TestLogger.log.info("Country: " + country + " was clicked");
     }
 
     public void setTextOnPhoneNumberField(String phoneNumber){
@@ -96,6 +97,7 @@ public class RegistrationPage extends BaseExtendablePage {
     public void clickSubmitButton() {
         Waits.visibilityOfElement(submitButton);
         clickOnElement(submitButton);
+        TestLogger.log.info("Submit button clicked");
     }
 
     public void fillDateOfBirth(String day, String month, String year) {
@@ -108,13 +110,13 @@ public class RegistrationPage extends BaseExtendablePage {
     public void addAttachment(String pathToAttachment, String attName) throws Exception{
         if(PropertyManager.getProperty("BROWSER").equalsIgnoreCase("firefox")) {
             jsExecutor.executeScript("arguments[0].click();", addAttachmentButton);
-            //Runtime for Mozilla
+            //Runtime for Mozilla TODO
         } else {
             addAttachmentButton.click();
             Thread.sleep(1000);
             Runtime.getRuntime().exec(pathToAttachment);
         }
-        wait.until(ExpectedConditions.elementToBeClickable(addAttachmentButton));
+        wait.until(ExpectedConditions.attributeContains(addAttachmentButton, "value", "C:"));
         Assert.assertEquals(addAttachmentButton.getAttribute("value"), "C:\\fakepath\\" + attName);
         TestLogger.log.info("Attachment added: " + addAttachmentButton.getAttribute("value"));
     }
@@ -125,7 +127,7 @@ public class RegistrationPage extends BaseExtendablePage {
                 TestLogger.log.info("Correctly registered - OK");
             }
             else if(registeredIncorrectHeader.isDisplayed()){
-                TestLogger.log.info("Incorrectly registered - OK");
+                TestLogger.log.info("Incorrectly registered - OK");    // poprawic metode
             }
         } catch(NoSuchElementException e){
             return false;

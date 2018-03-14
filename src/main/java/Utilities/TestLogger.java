@@ -1,8 +1,6 @@
 package Utilities;
 
 import org.apache.log4j.Logger;
-import org.apache.log4j.PropertyConfigurator;
-
 /**
  * Created by Dawidek on 2018-02-15.
  */

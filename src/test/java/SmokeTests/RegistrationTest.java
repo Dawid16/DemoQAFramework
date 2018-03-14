@@ -1,6 +1,7 @@
 package SmokeTests;
 
 import BaseTest.ConfigurationForBrowser;
+import Pages.MainPage;
 import Pages.RegistrationPage;
 import Utilities.TestListener;
 import org.openqa.selenium.support.PageFactory;
@@ -13,7 +14,6 @@ import org.testng.annotations.*;
 @Listeners(TestListener.class)
 public class RegistrationTest extends ConfigurationForBrowser{
 
-    RegistrationPage registrationPage;
     /*
     HashMap<String, String> registrationMap;
 
@@ -26,15 +26,11 @@ public class RegistrationTest extends ConfigurationForBrowser{
     }
     */
 
-    @BeforeClass(alwaysRun = true)
-    public void setup() throws Exception{
-         registrationPage = PageFactory.initElements(driver, RegistrationPage.class);
-
-    }
-
     @Test(groups = "logging")
     public void testLoginRegistrationPage() throws Exception{
-        driver.manage().deleteAllCookies();
+
+        RegistrationPage registrationPage = new RegistrationPage(driver);
+
         registrationPage.loadPage();
         registrationPage.setTextFirstNameField("Michal");
         //registrationPage.setTextFirstNameField(registrationMap.get("firstName"));

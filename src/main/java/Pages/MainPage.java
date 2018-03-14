@@ -2,10 +2,12 @@ package Pages;
 
 import Commands.DemoType;
 import Navigation.NavigationTabDemo;
+import Utilities.PropertyManager;
 import Utilities.TestLogger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 
 import java.util.ArrayList;
@@ -16,6 +18,7 @@ import java.util.List;
  * Created by Dawidek on 2018-02-13.
  */
 public class MainPage extends BaseExtendablePage {
+
 
     @FindBy(xpath = "//p/a/img[@src= 'http://demoqa.com/wp-content/uploads/2014/08/pattern-14-300x237.png']") WebElement photo1;
     @FindBy(xpath = "//p/i/a/img[@src= 'http://demoqa.com/wp-content/uploads/2014/08/pattern-14-300x237.png']") WebElement photo2;
@@ -41,6 +44,7 @@ public class MainPage extends BaseExtendablePage {
                 break;
         }
     }
+
     public void checkPhotos() {
         List<WebElement> photos = new ArrayList<>(Arrays.asList(photo1, photo2, photo3));
 
@@ -66,8 +70,6 @@ public class MainPage extends BaseExtendablePage {
             numOfTab++;
         }
     }
-
-
 
 
 }

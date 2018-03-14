@@ -4,7 +4,7 @@ import Utilities.TestLogger;
 import Utilities.Waits;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
-import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -28,11 +28,18 @@ public class BaseExtendablePage {
         this.driver = driver;
         jsExecutor = ((JavascriptExecutor) driver);
         wait = new WebDriverWait(driver, 5, 1000);
+        PageFactory.initElements(driver, this);
     }
 
     public void loadPage(){
         driver.get(getPageURL());
         Assert.assertEquals(driver.getTitle(), getPageTitle());
+    }
+
+    public String getPageURL(){ return PAGE_URL; }
+
+    public String getPageTitle(){
+        return PAGE_TITLE;
     }
 
     public void setTextOnElement(WebElement element, String text){
@@ -42,21 +49,13 @@ public class BaseExtendablePage {
     }
 
     public void clickOnElement(WebElement element){
-        element.click();
         Waits.visibilityOfElement(element);
+        element.click();
     }
 
     public void selectValueFromDropdown(WebElement element, String value){
         Select select = new Select(element);
         select.selectByValue(value);
-    }
-
-    public String getPageURL(){
-        return PAGE_URL;
-    }
-
-    public String getPageTitle(){
-        return PAGE_TITLE;
     }
 
     public static void captureScreenshot(String screenShotName){
