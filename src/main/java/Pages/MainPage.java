@@ -1,13 +1,11 @@
 package Pages;
 
 import Commands.DemoType;
-import Navigation.NavigationTabDemo;
-import Utilities.PropertyManager;
+import Navigation.MenuSelector;
 import Utilities.TestLogger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 
 import java.util.ArrayList;
@@ -19,30 +17,19 @@ import java.util.List;
  */
 public class MainPage extends BaseExtendablePage {
 
-
     @FindBy(xpath = "//p/a/img[@src= 'http://demoqa.com/wp-content/uploads/2014/08/pattern-14-300x237.png']") WebElement photo1;
     @FindBy(xpath = "//p/i/a/img[@src= 'http://demoqa.com/wp-content/uploads/2014/08/pattern-14-300x237.png']") WebElement photo2;
     @FindBy(xpath = "//div/i/a/img[@src= 'http://demoqa.com/wp-content/uploads/2014/08/pattern-14-300x237.png']") WebElement photo3;
     @FindBy(xpath = "//a[contains(@href, '#tabs-')]") List<WebElement> tabs;
     @FindBy(xpath = "//b[contains(text(),'Content')]") List<WebElement> descriptions;
-
+    @FindBy(xpath = "//a[@class='dropdown-toggle']") static WebElement menuHeaderButton;
+    @FindBy(xpath = "//a[@title='Draggable']") static WebElement draggableListOption;
+    @FindBy(xpath = "//a[@title='Tabs']") static WebElement tabsListOption;
 
     public MainPage(WebDriver driver){
         super(driver);
         this.PAGE_TITLE = "Demoqa | Just another WordPress site";
         this.PAGE_URL = "http://demoqa.com";
-    }
-
-    public void goToNavTabDemo(DemoType demoType) {
-
-        switch (demoType) {
-            case Draggable:
-                NavigationTabDemo.DemoDraggable.select();
-                break;
-            case Tabs:
-                NavigationTabDemo.DemoTabs.select();
-                break;
-        }
     }
 
     public void checkPhotos() {
@@ -71,5 +58,27 @@ public class MainPage extends BaseExtendablePage {
         }
     }
 
+    private static class DemoDraggable {
+        private static void select() {
+            MenuSelector.select(menuHeaderButton, draggableListOption);
+        }
+    }
+
+    private static class DemoTabs {
+        private static void select() {
+            MenuSelector.select(menuHeaderButton, tabsListOption);
+        }
+    }
+
+    public static void goToNavTabDemo(DemoType demoType) {
+        switch (demoType) {
+            case Draggable:
+                DemoDraggable.select();
+                break;
+            case Tabs:
+                DemoTabs.select();
+                break;
+        }
+    }
 
 }

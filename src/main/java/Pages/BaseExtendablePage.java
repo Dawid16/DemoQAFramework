@@ -31,7 +31,9 @@ public class BaseExtendablePage {
         PageFactory.initElements(driver, this);
     }
 
-    public void loadPage(){
+    public BaseExtendablePage(){};
+
+    public final void loadPage(){
         driver.get(getPageURL());
         Assert.assertEquals(driver.getTitle(), getPageTitle());
     }
@@ -42,13 +44,13 @@ public class BaseExtendablePage {
         return PAGE_TITLE;
     }
 
-    public void setTextOnElement(WebElement element, String text){
+    public final void setTextOnElement(WebElement element, String text){
         element.clear();
         element.sendKeys(text);
         Assert.assertEquals(element.getAttribute("value"), text);
     }
 
-    public void clickOnElement(WebElement element){
+    public final static void clickOnElement(WebElement element){
         Waits.visibilityOfElement(element);
         element.click();
     }

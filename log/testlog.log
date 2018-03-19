@@ -335,3 +335,42 @@ Session ID: a19654fd67f190bf1992b91a3ff5d838
 2018-03-14 19:19:34,513 - Utilities.TestLogger -INFO - Submit button clicked
 2018-03-14 19:19:35,021 - Utilities.TestLogger -INFO - Correctly registered - OK
 2018-03-14 19:19:35,028 - Utilities.TestLogger -INFO - AfterClass is executing ...
+2018-03-14 19:54:35,315 - Utilities.TestLogger -INFO - BROWSER = chrome
+2018-03-14 19:54:53,890 - Utilities.TestLogger -INFO - Photo clicked
+2018-03-14 19:54:55,303 - Utilities.TestLogger -INFO - Photo clicked
+2018-03-14 19:54:56,360 - Utilities.TestLogger -INFO - Photo clicked
+2018-03-14 19:54:57,523 - Utilities.TestLogger -INFO - Element Tab 1 was clicked
+2018-03-14 19:54:57,871 - Utilities.TestLogger -INFO - Element Tab 2 was clicked
+2018-03-14 19:54:58,236 - Utilities.TestLogger -INFO - Element Tab 3 was clicked
+2018-03-14 19:54:58,512 - Utilities.TestLogger -INFO - Element Tab 4 was clicked
+2018-03-14 19:54:58,815 - Utilities.TestLogger -INFO - Element Tab 5 was clicked
+2018-03-14 19:54:58,817 - Utilities.TestLogger -INFO - AfterClass is executing ...
+2018-03-15 19:12:58,092 - Utilities.TestLogger -INFO - BROWSER = chrome
+2018-03-15 19:13:14,598 - Utilities.TestLogger -INFO - AfterClass is executing ...
+2018-03-15 19:40:58,027 - Utilities.TestLogger -INFO - BROWSER = chrome
+2018-03-15 19:41:22,051 - Utilities.TestLogger -INFO - AfterClass is executing ...
+2018-03-15 19:43:33,787 - Utilities.TestLogger -INFO - BROWSER = chrome
+2018-03-15 19:43:49,390 - Utilities.TestLogger -INFO - AfterClass is executing ...
+2018-03-15 19:46:08,362 - Utilities.TestLogger -INFO - BROWSER = chrome
+2018-03-15 19:46:26,231 - Utilities.TestLogger -INFO - AfterClass is executing ...
+2018-03-15 19:50:53,273 - Utilities.TestLogger -INFO - BROWSER = chrome
+2018-03-15 19:51:08,542 - Utilities.TestLogger -INFO - AfterClass is executing ...
+2018-03-15 19:53:54,845 - Utilities.TestLogger -INFO - BROWSER = chrome
+2018-03-15 19:54:09,677 - Utilities.TestLogger -INFO - AfterClass is executing ...
+2018-03-15 19:55:59,257 - Utilities.TestLogger -INFO - BROWSER = chrome
+2018-03-15 19:56:15,032 - Utilities.TestLogger -INFO - Text set in FirstNameField: Michal
+2018-03-15 19:56:15,758 - Utilities.TestLogger -INFO - Text set in FirstNameField: Kowalewski
+2018-03-15 19:56:15,996 - Utilities.TestLogger -INFO - Marital radioButton clicked
+2018-03-15 19:56:16,471 - Utilities.TestLogger -INFO - CheckBox dance was clicked
+2018-03-15 19:56:16,735 - Utilities.TestLogger -INFO - CheckBox reading was clicked
+2018-03-15 19:56:16,997 - Utilities.TestLogger -INFO - CheckBox cricket  was clicked
+2018-03-15 19:56:17,515 - Utilities.TestLogger -INFO - Country: Poland was clicked
+2018-03-15 19:56:18,788 - Utilities.TestLogger -INFO - Date of birth: 1 10 2014 was chosen
+2018-03-15 19:56:19,535 - Utilities.TestLogger -INFO - Phone number: 1234567890123 was typed
+2018-03-15 19:56:21,452 - Utilities.TestLogger -INFO - Username: uuidde56fa09-b17b-4d50-8eff-96363ee799a0 was typed
+2018-03-15 19:56:23,238 - Utilities.TestLogger -INFO - Username: uuid04420af1-b0de-45dc-8475-27f9da8ff603@gmail.com was typed
+2018-03-15 19:56:24,912 - Utilities.TestLogger -INFO - Password: asdfghjkl1234., was typed
+2018-03-15 19:56:28,712 - Utilities.TestLogger -INFO - Attachment added: C:\fakepath\IMG_20170930_174713.jpg
+2018-03-15 19:57:13,342 - Utilities.TestLogger -INFO - Submit button clicked
+2018-03-15 19:57:13,897 - Utilities.TestLogger -INFO - Correctly registered - OK
+2018-03-15 19:57:13,904 - Utilities.TestLogger -INFO - AfterClass is executing ...

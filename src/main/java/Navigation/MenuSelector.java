@@ -1,18 +1,15 @@
 package Navigation;
 
-import org.openqa.selenium.By;
-
-import static Pages.BaseExtendablePage.driver;
-
+import Pages.BaseExtendablePage;
+import org.openqa.selenium.WebElement;
 
 /**
  * Created by Dawidek on 2018-03-12.
  */
-public class MenuSelector {
+public class MenuSelector extends BaseExtendablePage {
 
-
-    public static void select(String topMenuId, String subMenuTextLink) {
-        driver.findElement(By.xpath(topMenuId)).click();
-        driver.findElement(By.xpath(subMenuTextLink)).click();
+    public static void select(WebElement topMenuId, WebElement subMenuTextLink) {
+        clickOnElement(topMenuId);
+        clickOnElement(subMenuTextLink);
     }
 }

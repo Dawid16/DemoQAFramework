@@ -34,7 +34,6 @@ public class RegistrationPage extends BaseExtendablePage {
     @FindBy(className = "piereg_message") WebElement registeredCorrectHeader;
     @FindBy(className = "piereg_login_error") WebElement registeredIncorrectHeader;
 
-
     public RegistrationPage(WebDriver driver){
         super(driver);
         this.PAGE_TITLE = "Registration | Demoqa";
