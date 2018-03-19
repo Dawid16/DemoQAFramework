@@ -1,6 +1,6 @@
 package Pages;
 
-import Commands.DemoType;
+import Commands.DemoTypeMainPage;
 import Navigation.MenuSelector;
 import Utilities.TestLogger;
 import org.openqa.selenium.WebDriver;
@@ -70,8 +70,8 @@ public class MainPage extends BaseExtendablePage {
         }
     }
 
-    public static void goToNavTabDemo(DemoType demoType) {
-        switch (demoType) {
+    public static void goToNavTabDemo(DemoTypeMainPage demoTypeMainPage) {
+        switch (demoTypeMainPage) {
             case Draggable:
                 DemoDraggable.select();
                 break;
@@ -79,6 +79,7 @@ public class MainPage extends BaseExtendablePage {
                 DemoTabs.select();
                 break;
         }
+        TestLogger.log.info(demoTypeMainPage + " selected");
     }
 
 }

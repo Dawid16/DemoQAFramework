@@ -1,10 +1,8 @@
 package BaseFunctionalTests;
 
 import BaseTest.ConfigurationForBrowser;
-import Commands.DemoType;
+import Commands.DemoTypeMainPage;
 import Pages.MainPage;
-import org.openqa.selenium.support.PageFactory;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 /**
@@ -18,7 +16,7 @@ public class ContentMainPageTest extends ConfigurationForBrowser {
         MainPage mainPage = new MainPage(driver);
 
         mainPage.loadPage();
-        MainPage.goToNavTabDemo(DemoType.Tabs);
+        MainPage.goToNavTabDemo(DemoTypeMainPage.Tabs);
         //mainPage.checkPhotos();
         //mainPage.checkAllTabs();
     }

@@ -12,4 +12,10 @@ public class MenuSelector extends BaseExtendablePage {
         clickOnElement(topMenuId);
         clickOnElement(subMenuTextLink);
     }
+
+    public static void selectFromTableDraggablePage(WebElement tableName) {
+        clickOnElement(tableName);
+    }
+
+
 }

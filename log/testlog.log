@@ -374,3 +374,279 @@ Session ID: a19654fd67f190bf1992b91a3ff5d838
 2018-03-15 19:57:13,342 - Utilities.TestLogger -INFO - Submit button clicked
 2018-03-15 19:57:13,897 - Utilities.TestLogger -INFO - Correctly registered - OK
 2018-03-15 19:57:13,904 - Utilities.TestLogger -INFO - AfterClass is executing ...
+2018-03-19 09:48:11,992 - Utilities.TestLogger -INFO - BROWSER = chrome
+2018-03-19 09:48:28,705 - Utilities.TestLogger -INFO - AfterClass is executing ...
+2018-03-19 09:49:28,476 - Utilities.TestLogger -INFO - BROWSER = chrome
+2018-03-19 09:49:42,463 - Utilities.TestLogger -INFO - AfterClass is executing ...
+2018-03-19 10:23:05,864 - Utilities.TestLogger -INFO - BROWSER = chrome
+2018-03-19 10:23:19,565 - Utilities.TestLogger -INFO - AfterClass is executing ...
+2018-03-19 10:52:21,643 - Utilities.TestLogger -INFO - BROWSER = chrome
+2018-03-19 10:52:39,082 - Utilities.TestLogger -INFO - AfterClass is executing ...
+2018-03-19 10:54:52,349 - Utilities.TestLogger -INFO - BROWSER = chrome
+2018-03-19 10:55:12,648 - Utilities.TestLogger -INFO - AfterClass is executing ...
+2018-03-19 10:55:43,686 - Utilities.TestLogger -INFO - BROWSER = chrome
+2018-03-19 10:55:59,344 - Utilities.TestLogger -INFO - AfterClass is executing ...
+2018-03-19 10:56:28,326 - Utilities.TestLogger -INFO - BROWSER = chrome
+2018-03-19 10:56:41,459 - Utilities.TestLogger -INFO - AfterClass is executing ...
+2018-03-19 11:01:06,319 - Utilities.TestLogger -INFO - BROWSER = chrome
+2018-03-19 11:01:21,383 - Utilities.TestLogger -INFO - AfterClass is executing ...
+2018-03-19 11:40:42,841 - Utilities.TestLogger -INFO - BROWSER = chrome
+2018-03-19 11:40:56,816 - Utilities.TestLogger -INFO - AfterClass is executing ...
+2018-03-19 11:41:29,150 - Utilities.TestLogger -INFO - BROWSER = chrome
+2018-03-19 11:41:47,007 - Utilities.TestLogger -INFO - AfterClass is executing ...
+2018-03-19 11:41:58,104 - Utilities.TestLogger -INFO - BROWSER = chrome
+2018-03-19 11:42:12,790 - Utilities.TestLogger -INFO - AfterClass is executing ...
+2018-03-19 11:43:09,089 - Utilities.TestLogger -INFO - BROWSER = chrome
+2018-03-19 11:43:26,425 - Utilities.TestLogger -INFO - AfterClass is executing ...
+2018-03-19 11:45:03,870 - Utilities.TestLogger -INFO - BROWSER = chrome
+2018-03-19 11:45:21,711 - Utilities.TestLogger -INFO - AfterClass is executing ...
+2018-03-19 11:46:15,970 - Utilities.TestLogger -INFO - BROWSER = chrome
+2018-03-19 11:46:32,437 - Utilities.TestLogger -INFO - AfterClass is executing ...
+2018-03-19 11:47:27,428 - Utilities.TestLogger -INFO - BROWSER = chrome
+2018-03-19 11:47:42,572 - Utilities.TestLogger -INFO - AfterClass is executing ...
+2018-03-19 11:48:31,064 - Utilities.TestLogger -INFO - BROWSER = chrome
+2018-03-19 12:00:54,879 - Utilities.TestLogger -INFO - BROWSER = chrome
+2018-03-19 12:01:07,122 - Utilities.TestLogger -INFO - AfterClass is executing ...
+2018-03-19 12:01:25,433 - Utilities.TestLogger -INFO - BROWSER = chrome
+2018-03-19 12:01:36,346 - Utilities.TestLogger -INFO - AfterClass is executing ...
+2018-03-19 12:03:49,437 - Utilities.TestLogger -INFO - BROWSER = chrome
+2018-03-19 12:04:05,383 - Utilities.TestLogger -INFO - AfterClass is executing ...
+2018-03-19 12:04:44,627 - Utilities.TestLogger -INFO - BROWSER = chrome
+2018-03-19 12:04:56,500 - Utilities.TestLogger -INFO - AfterClass is executing ...
+2018-03-19 12:07:01,239 - Utilities.TestLogger -INFO - BROWSER = chrome
+2018-03-19 12:07:11,448 - Utilities.TestLogger -INFO - AfterClass is executing ...
+2018-03-19 12:08:33,030 - Utilities.TestLogger -INFO - BROWSER = chrome
+2018-03-19 12:08:42,208 - Utilities.TestLogger -INFO - http://demoqa.com/draggableloaded
+2018-03-19 12:08:43,237 - Utilities.TestLogger -INFO - AfterClass is executing ...
+2018-03-19 12:10:58,568 - Utilities.TestLogger -INFO - BROWSER = chrome
+2018-03-19 12:11:09,070 - Utilities.TestLogger -INFO - Draggable | Demoqa loaded
+2018-03-19 12:11:09,311 - Utilities.TestLogger -INFO - ConstrainMovement clicked
+2018-03-19 12:11:09,873 - Utilities.TestLogger -INFO - AfterClass is executing ...
+2018-03-19 12:13:19,424 - Utilities.TestLogger -INFO - BROWSER = chrome
+2018-03-19 12:13:31,012 - Utilities.TestLogger -INFO - Draggable | Demoqa loaded
+2018-03-19 12:13:31,388 - Utilities.TestLogger -INFO - ConstrainMovement clicked
+2018-03-19 12:13:31,792 - Utilities.TestLogger -INFO - [[ChromeDriver: chrome on XP (7c2a7a679079e309a798b8f03b1f37a9)] -> id: draggabl2] was clicked
+2018-03-19 12:13:32,177 - Utilities.TestLogger -INFO - [[ChromeDriver: chrome on XP (7c2a7a679079e309a798b8f03b1f37a9)] -> id: draggabl] was clicked
+2018-03-19 12:13:32,233 - Utilities.TestLogger -INFO - AfterClass is executing ...
+2018-03-19 12:14:44,400 - Utilities.TestLogger -INFO - BROWSER = chrome
+2018-03-19 12:14:54,462 - Utilities.TestLogger -INFO - Draggable | Demoqa loaded
+2018-03-19 12:14:54,779 - Utilities.TestLogger -INFO - ConstrainMovement clicked
+2018-03-19 12:14:55,180 - Utilities.TestLogger -INFO - I can be dragged only horizontally was clicked
+2018-03-19 12:14:55,519 - Utilities.TestLogger -INFO - I can be dragged only vertically was clicked
+2018-03-19 12:14:55,557 - Utilities.TestLogger -INFO - AfterClass is executing ...
+2018-03-19 12:54:33,356 - Utilities.TestLogger -INFO - BROWSER = chrome
+2018-03-19 12:54:43,031 - Utilities.TestLogger -INFO - Draggable | Demoqa loaded
+2018-03-19 12:54:43,262 - Utilities.TestLogger -INFO - ConstrainMovement clicked
+2018-03-19 12:54:43,627 - Utilities.TestLogger -INFO - I can be dragged only horizontally was dragged
+2018-03-19 12:54:44,263 - Utilities.TestLogger -INFO - I can be dragged only vertically was dragged
+2018-03-19 12:54:45,481 - Utilities.TestLogger -INFO - Draggable | Demoqa loaded
+2018-03-19 12:54:45,721 - Utilities.TestLogger -INFO - PreventPropagation clicked
+2018-03-19 12:54:45,724 - Utilities.TestLogger -INFO - AfterClass is executing ...
+2018-03-19 12:55:34,672 - Utilities.TestLogger -INFO - BROWSER = chrome
+2018-03-19 12:55:47,681 - Utilities.TestLogger -INFO - Draggable | Demoqa loaded
+2018-03-19 12:55:47,949 - Utilities.TestLogger -INFO - ConstrainMovement clicked
+2018-03-19 12:55:48,364 - Utilities.TestLogger -INFO - I can be dragged only horizontally was dragged
+2018-03-19 12:55:49,248 - Utilities.TestLogger -INFO - I can be dragged only vertically was dragged
+2018-03-19 12:55:50,292 - Utilities.TestLogger -INFO - Draggable | Demoqa loaded
+2018-03-19 12:55:50,754 - Utilities.TestLogger -INFO - PreventPropagation clicked
+2018-03-19 12:55:50,770 - Utilities.TestLogger -INFO - AfterClass is executing ...
+2018-03-19 12:57:13,156 - Utilities.TestLogger -INFO - BROWSER = chrome
+2018-03-19 12:57:32,168 - Utilities.TestLogger -INFO - Draggable | Demoqa loaded
+2018-03-19 12:57:32,454 - Utilities.TestLogger -INFO - ConstrainMovement clicked
+2018-03-19 12:57:32,935 - Utilities.TestLogger -INFO - I can be dragged only horizontally was dragged
+2018-03-19 12:57:33,701 - Utilities.TestLogger -INFO - I can be dragged only vertically was dragged
+2018-03-19 12:57:34,878 - Utilities.TestLogger -INFO - Draggable | Demoqa loaded
+2018-03-19 12:57:35,153 - Utilities.TestLogger -INFO - PreventPropagation clicked
+2018-03-19 12:57:35,156 - Utilities.TestLogger -INFO - AfterClass is executing ...
+2018-03-19 12:58:52,731 - Utilities.TestLogger -INFO - BROWSER = chrome
+2018-03-19 12:59:04,007 - Utilities.TestLogger -INFO - Draggable | Demoqa loaded
+2018-03-19 12:59:04,236 - Utilities.TestLogger -INFO - ConstrainMovement clicked
+2018-03-19 12:59:04,601 - Utilities.TestLogger -INFO - I can be dragged only horizontally was dragged
+2018-03-19 12:59:04,993 - Utilities.TestLogger -INFO - I can be dragged only vertically was dragged
+2018-03-19 12:59:08,758 - Utilities.TestLogger -INFO - Droppable | Demoqa loaded
+2018-03-19 12:59:08,985 - Utilities.TestLogger -INFO - PreventPropagation clicked
+2018-03-19 12:59:08,990 - Utilities.TestLogger -INFO - AfterClass is executing ...
+2018-03-19 13:35:46,668 - Utilities.TestLogger -INFO - BROWSER = chrome
+2018-03-19 13:35:56,245 - Utilities.TestLogger -INFO - Draggable | Demoqa loaded
+2018-03-19 13:35:56,525 - Utilities.TestLogger -INFO - ConstrainMovement clicked
+2018-03-19 13:35:56,955 - Utilities.TestLogger -INFO - I can be dragged only horizontally was dragged
+2018-03-19 13:35:57,656 - Utilities.TestLogger -INFO - I can be dragged only vertically was dragged
+2018-03-19 13:36:00,015 - Utilities.TestLogger -INFO - Droppable | Demoqa loaded
+2018-03-19 13:36:00,239 - Utilities.TestLogger -INFO - PreventPropagation clicked
+2018-03-19 13:36:00,242 - Utilities.TestLogger -INFO - AfterClass is executing ...
+2018-03-19 14:16:10,891 - Utilities.TestLogger -INFO - BROWSER = chrome
+2018-03-19 14:16:16,345 - Utilities.TestLogger -INFO - AfterClass is executing ...
+2018-03-19 14:17:22,021 - Utilities.TestLogger -INFO - BROWSER = chrome
+2018-03-19 14:17:34,002 - Utilities.TestLogger -INFO - Draggable | Demoqa loaded
+2018-03-19 14:17:34,216 - Utilities.TestLogger -INFO - ConstrainMovement clicked
+2018-03-19 14:17:34,577 - Utilities.TestLogger -INFO - I can be dragged only horizontally was dragged
+2018-03-19 14:17:34,939 - Utilities.TestLogger -INFO - I can be dragged only vertically was dragged
+2018-03-19 14:17:38,865 - Utilities.TestLogger -INFO - Droppable | Demoqa loaded
+2018-03-19 14:17:39,135 - Utilities.TestLogger -INFO - ShoppingCartDemo clicked
+2018-03-19 14:17:43,783 - Utilities.TestLogger -INFO - AfterClass is executing ...
+2018-03-19 14:18:09,086 - Utilities.TestLogger -INFO - BROWSER = chrome
+2018-03-19 14:18:18,601 - Utilities.TestLogger -INFO - Draggable | Demoqa loaded
+2018-03-19 14:18:18,852 - Utilities.TestLogger -INFO - ConstrainMovement clicked
+2018-03-19 14:18:19,236 - Utilities.TestLogger -INFO - I can be dragged only horizontally was dragged
+2018-03-19 14:18:19,579 - Utilities.TestLogger -INFO - I can be dragged only vertically was dragged
+2018-03-19 14:18:22,708 - Utilities.TestLogger -INFO - Droppable | Demoqa loaded
+2018-03-19 14:18:22,997 - Utilities.TestLogger -INFO - ShoppingCartDemo clicked
+2018-03-19 14:18:44,754 - Utilities.TestLogger -INFO - AfterClass is executing ...
+2018-03-19 14:20:39,678 - Utilities.TestLogger -INFO - BROWSER = chrome
+2018-03-19 14:20:50,178 - Utilities.TestLogger -INFO - Draggable | Demoqa loaded
+2018-03-19 14:20:50,443 - Utilities.TestLogger -INFO - ConstrainMovement clicked
+2018-03-19 14:20:50,801 - Utilities.TestLogger -INFO - I can be dragged only horizontally was dragged
+2018-03-19 14:20:51,173 - Utilities.TestLogger -INFO - I can be dragged only vertically was dragged
+2018-03-19 14:20:57,496 - Utilities.TestLogger -INFO - Droppable | Demoqa loaded
+2018-03-19 14:20:57,755 - Utilities.TestLogger -INFO - ShoppingCartDemo clicked
+2018-03-19 14:21:03,221 - Utilities.TestLogger -INFO - AfterClass is executing ...
+2018-03-19 14:22:15,529 - Utilities.TestLogger -INFO - BROWSER = chrome
+2018-03-19 14:22:27,893 - Utilities.TestLogger -INFO - Draggable | Demoqa loaded
+2018-03-19 14:22:28,154 - Utilities.TestLogger -INFO - ConstrainMovement clicked
+2018-03-19 14:22:28,507 - Utilities.TestLogger -INFO - I can be dragged only horizontally was dragged
+2018-03-19 14:22:28,900 - Utilities.TestLogger -INFO - I can be dragged only vertically was dragged
+2018-03-19 14:22:34,323 - Utilities.TestLogger -INFO - Droppable | Demoqa loaded
+2018-03-19 14:22:34,791 - Utilities.TestLogger -INFO - ShoppingCartDemo clicked
+2018-03-19 14:22:40,436 - Utilities.TestLogger -INFO - AfterClass is executing ...
+2018-03-19 14:24:08,077 - Utilities.TestLogger -INFO - BROWSER = chrome
+2018-03-19 14:24:17,887 - Utilities.TestLogger -INFO - Draggable | Demoqa loaded
+2018-03-19 14:24:18,178 - Utilities.TestLogger -INFO - ConstrainMovement clicked
+2018-03-19 14:24:18,561 - Utilities.TestLogger -INFO - I can be dragged only horizontally was dragged
+2018-03-19 14:24:19,179 - Utilities.TestLogger -INFO - I can be dragged only vertically was dragged
+2018-03-19 14:24:21,689 - Utilities.TestLogger -INFO - Droppable | Demoqa loaded
+2018-03-19 14:24:21,948 - Utilities.TestLogger -INFO - ShoppingCartDemo clicked
+2018-03-19 14:24:29,626 - Utilities.TestLogger -INFO - AfterClass is executing ...
+2018-03-19 14:24:49,061 - Utilities.TestLogger -INFO - BROWSER = chrome
+2018-03-19 14:25:02,096 - Utilities.TestLogger -INFO - Draggable | Demoqa loaded
+2018-03-19 14:25:02,382 - Utilities.TestLogger -INFO - ConstrainMovement clicked
+2018-03-19 14:25:02,810 - Utilities.TestLogger -INFO - I can be dragged only horizontally was dragged
+2018-03-19 14:25:03,667 - Utilities.TestLogger -INFO - I can be dragged only vertically was dragged
+2018-03-19 14:25:06,264 - Utilities.TestLogger -INFO - Droppable | Demoqa loaded
+2018-03-19 14:25:06,496 - Utilities.TestLogger -INFO - ShoppingCartDemo clicked
+2018-03-19 14:25:14,219 - Utilities.TestLogger -INFO - AfterClass is executing ...
+2018-03-19 14:26:25,414 - Utilities.TestLogger -INFO - BROWSER = chrome
+2018-03-19 14:26:35,030 - Utilities.TestLogger -INFO - Draggable | Demoqa loaded
+2018-03-19 14:26:35,280 - Utilities.TestLogger -INFO - ConstrainMovement clicked
+2018-03-19 14:26:35,637 - Utilities.TestLogger -INFO - I can be dragged only horizontally was dragged
+2018-03-19 14:26:36,006 - Utilities.TestLogger -INFO - I can be dragged only vertically was dragged
+2018-03-19 14:26:38,730 - Utilities.TestLogger -INFO - Droppable | Demoqa loaded
+2018-03-19 14:26:39,025 - Utilities.TestLogger -INFO - ShoppingCartDemo clicked
+2018-03-19 14:27:01,790 - Utilities.TestLogger -INFO - AfterClass is executing ...
+2018-03-19 14:27:12,284 - Utilities.TestLogger -INFO - BROWSER = chrome
+2018-03-19 14:27:23,829 - Utilities.TestLogger -INFO - Draggable | Demoqa loaded
+2018-03-19 14:27:24,111 - Utilities.TestLogger -INFO - ConstrainMovement clicked
+2018-03-19 14:27:24,561 - Utilities.TestLogger -INFO - I can be dragged only horizontally was dragged
+2018-03-19 14:27:24,923 - Utilities.TestLogger -INFO - I can be dragged only vertically was dragged
+2018-03-19 14:27:28,678 - Utilities.TestLogger -INFO - Droppable | Demoqa loaded
+2018-03-19 14:27:28,926 - Utilities.TestLogger -INFO - ShoppingCartDemo clicked
+2018-03-19 14:27:43,111 - Utilities.TestLogger -INFO - AfterClass is executing ...
+2018-03-19 14:29:35,569 - Utilities.TestLogger -INFO - BROWSER = chrome
+2018-03-19 14:29:46,633 - Utilities.TestLogger -INFO - Draggable | Demoqa loaded
+2018-03-19 14:29:47,064 - Utilities.TestLogger -INFO - ConstrainMovement clicked
+2018-03-19 14:29:47,543 - Utilities.TestLogger -INFO - I can be dragged only horizontally was dragged
+2018-03-19 14:29:48,262 - Utilities.TestLogger -INFO - I can be dragged only vertically was dragged
+2018-03-19 14:29:51,513 - Utilities.TestLogger -INFO - Droppable | Demoqa loaded
+2018-03-19 14:29:51,756 - Utilities.TestLogger -INFO - ShoppingCartDemo clicked
+2018-03-19 14:30:20,787 - Utilities.TestLogger -INFO - AfterClass is executing ...
+2018-03-19 14:31:08,922 - Utilities.TestLogger -INFO - BROWSER = chrome
+2018-03-19 14:31:20,049 - Utilities.TestLogger -INFO - Draggable | Demoqa loaded
+2018-03-19 14:31:20,290 - Utilities.TestLogger -INFO - ConstrainMovement clicked
+2018-03-19 14:31:20,706 - Utilities.TestLogger -INFO - I can be dragged only horizontally was dragged
+2018-03-19 14:31:21,308 - Utilities.TestLogger -INFO - I can be dragged only vertically was dragged
+2018-03-19 14:31:24,326 - Utilities.TestLogger -INFO - Droppable | Demoqa loaded
+2018-03-19 14:31:24,622 - Utilities.TestLogger -INFO - ShoppingCartDemo clicked
+2018-03-19 14:31:48,078 - Utilities.TestLogger -INFO - AfterClass is executing ...
+2018-03-19 14:43:56,742 - Utilities.TestLogger -INFO - BROWSER = chrome
+2018-03-19 14:44:07,513 - Utilities.TestLogger -INFO - Draggable | Demoqa loaded
+2018-03-19 14:44:07,774 - Utilities.TestLogger -INFO - ConstrainMovement clicked
+2018-03-19 14:44:08,146 - Utilities.TestLogger -INFO - I can be dragged only horizontally was dragged
+2018-03-19 14:44:08,483 - Utilities.TestLogger -INFO - I can be dragged only vertically was dragged
+2018-03-19 14:44:11,439 - Utilities.TestLogger -INFO - Droppable | Demoqa loaded
+2018-03-19 14:44:11,813 - Utilities.TestLogger -INFO - ShoppingCartDemo clicked
+2018-03-19 14:44:11,988 - Utilities.TestLogger -INFO - AfterClass is executing ...
+2018-03-19 14:54:22,320 - Utilities.TestLogger -INFO - BROWSER = chrome
+2018-03-19 14:54:40,118 - Utilities.TestLogger -INFO - Draggable | Demoqa loaded
+2018-03-19 14:54:40,349 - Utilities.TestLogger -INFO - ConstrainMovement clicked
+2018-03-19 14:54:40,715 - Utilities.TestLogger -INFO - I can be dragged only horizontally was dragged
+2018-03-19 14:54:41,052 - Utilities.TestLogger -INFO - I can be dragged only vertically was dragged
+2018-03-19 14:54:47,724 - Utilities.TestLogger -INFO - Droppable | Demoqa loaded
+2018-03-19 14:54:47,988 - Utilities.TestLogger -INFO - ShoppingCartDemo clicked
+2018-03-19 14:55:09,318 - Utilities.TestLogger -INFO - AfterClass is executing ...
+2018-03-19 15:04:43,708 - Utilities.TestLogger -INFO - BROWSER = chrome
+2018-03-19 15:05:13,992 - Utilities.TestLogger -INFO - Draggable | Demoqa loaded
+2018-03-19 15:05:19,351 - Utilities.TestLogger -INFO - ConstrainMovement clicked
+2018-03-19 15:05:26,747 - Utilities.TestLogger -INFO - I can be dragged only horizontally was dragged
+2018-03-19 15:05:27,244 - Utilities.TestLogger -INFO - I can be dragged only vertically was dragged
+2018-03-19 15:05:48,495 - Utilities.TestLogger -INFO - Droppable | Demoqa loaded
+2018-03-19 15:05:48,762 - Utilities.TestLogger -INFO - ShoppingCartDemo clicked
+2018-03-19 15:05:49,395 - Utilities.TestLogger -INFO - Element Lolcat Shirt was added to the cart
+2018-03-19 15:05:49,487 - Utilities.TestLogger -INFO - Lolcat Shirt
+2018-03-19 15:05:49,858 - Utilities.TestLogger -INFO - Element Cheezeburger Shirt was added to the cart
+2018-03-19 15:05:49,906 - Utilities.TestLogger -INFO - Lolcat Shirt
+Cheezeburger Shirt
+2018-03-19 15:05:50,326 - Utilities.TestLogger -INFO - Element Buckit Shirt was added to the cart
+2018-03-19 15:05:50,391 - Utilities.TestLogger -INFO - Lolcat Shirt
+Cheezeburger Shirt
+Buckit Shirt
+2018-03-19 15:06:10,394 - Utilities.TestLogger -INFO - AfterClass is executing ...
+2018-03-19 15:06:28,977 - Utilities.TestLogger -INFO - BROWSER = chrome
+2018-03-19 15:07:00,076 - Utilities.TestLogger -INFO - Draggable | Demoqa loaded
+2018-03-19 15:07:00,375 - Utilities.TestLogger -INFO - ConstrainMovement clicked
+2018-03-19 15:07:00,909 - Utilities.TestLogger -INFO - I can be dragged only horizontally was dragged
+2018-03-19 15:07:01,290 - Utilities.TestLogger -INFO - I can be dragged only vertically was dragged
+2018-03-19 15:07:20,596 - Utilities.TestLogger -INFO - Droppable | Demoqa loaded
+2018-03-19 15:07:20,857 - Utilities.TestLogger -INFO - ShoppingCartDemo clicked
+2018-03-19 15:07:21,525 - Utilities.TestLogger -INFO - Element Lolcat Shirt was added to the cart
+2018-03-19 15:07:21,600 - Utilities.TestLogger -INFO - Lolcat Shirt
+2018-03-19 15:07:21,990 - Utilities.TestLogger -INFO - Element Cheezeburger Shirt was added to the cart
+2018-03-19 15:07:22,042 - Utilities.TestLogger -INFO - Lolcat Shirt
+Cheezeburger Shirt
+2018-03-19 15:07:22,500 - Utilities.TestLogger -INFO - Element Buckit Shirt was added to the cart
+2018-03-19 15:07:22,584 - Utilities.TestLogger -INFO - Lolcat Shirt
+Cheezeburger Shirt
+Buckit Shirt
+2018-03-19 15:07:42,591 - Utilities.TestLogger -INFO - AfterClass is executing ...
+2018-03-19 15:12:11,058 - Utilities.TestLogger -INFO - BROWSER = chrome
+2018-03-19 15:12:24,840 - Utilities.TestLogger -INFO - Draggable | Demoqa loaded
+2018-03-19 15:12:25,164 - Utilities.TestLogger -INFO - ConstrainMovement clicked
+2018-03-19 15:12:25,661 - Utilities.TestLogger -INFO - I can be dragged only horizontally was dragged
+2018-03-19 15:12:26,438 - Utilities.TestLogger -INFO - I can be dragged only vertically was dragged
+2018-03-19 15:12:29,708 - Utilities.TestLogger -INFO - Droppable | Demoqa loaded
+2018-03-19 15:12:30,056 - Utilities.TestLogger -INFO - ShoppingCartDemo clicked
+2018-03-19 15:12:31,194 - Utilities.TestLogger -INFO - Element Lolcat Shirt was added to the cart
+2018-03-19 15:12:31,687 - Utilities.TestLogger -INFO - Element Cheezeburger Shirt was added to the cart
+2018-03-19 15:12:32,204 - Utilities.TestLogger -INFO - Element Buckit Shirt was added to the cart
+2018-03-19 15:12:32,255 - Utilities.TestLogger -INFO - Elements in the cart: Lolcat Shirt
+Cheezeburger Shirt
+Buckit Shirt
+2018-03-19 15:12:52,258 - Utilities.TestLogger -INFO - AfterClass is executing ...
+2018-03-19 15:13:49,051 - Utilities.TestLogger -INFO - BROWSER = chrome
+2018-03-19 15:13:58,673 - Utilities.TestLogger -INFO - Draggable | Demoqa loaded
+2018-03-19 15:13:58,922 - Utilities.TestLogger -INFO - ConstrainMovement clicked
+2018-03-19 15:13:59,281 - Utilities.TestLogger -INFO - I can be dragged only horizontally was dragged
+2018-03-19 15:13:59,612 - Utilities.TestLogger -INFO - I can be dragged only vertically was dragged
+2018-03-19 15:14:02,333 - Utilities.TestLogger -INFO - Droppable | Demoqa loaded
+2018-03-19 15:14:02,708 - Utilities.TestLogger -INFO - ShoppingCartDemo clicked
+2018-03-19 15:14:03,518 - Utilities.TestLogger -INFO - Element Lolcat Shirt was added to the cart
+2018-03-19 15:14:03,965 - Utilities.TestLogger -INFO - Element Cheezeburger Shirt was added to the cart
+2018-03-19 15:14:04,464 - Utilities.TestLogger -INFO - Element Buckit Shirt was added to the cart
+2018-03-19 15:14:04,517 - Utilities.TestLogger -INFO - Elements in the cart: 
+Lolcat Shirt
+Cheezeburger Shirt
+Buckit Shirt
+2018-03-19 15:14:24,521 - Utilities.TestLogger -INFO - AfterClass is executing ...
+2018-03-19 15:30:14,422 - Utilities.TestLogger -INFO - BROWSER = chrome
+2018-03-19 15:30:27,080 - Utilities.TestLogger -INFO - Draggable | Demoqa loaded
+2018-03-19 15:30:27,313 - Utilities.TestLogger -INFO - ConstrainMovement clicked
+2018-03-19 15:30:27,742 - Utilities.TestLogger -INFO - I can be dragged only horizontally was dragged
+2018-03-19 15:30:28,138 - Utilities.TestLogger -INFO - I can be dragged only vertically was dragged
+2018-03-19 15:30:34,325 - Utilities.TestLogger -INFO - Droppable | Demoqa loaded
+2018-03-19 15:30:34,559 - Utilities.TestLogger -INFO - ShoppingCartDemo clicked
+2018-03-19 15:30:35,255 - Utilities.TestLogger -INFO - Element Lolcat Shirt was added to the cart
+2018-03-19 15:30:35,688 - Utilities.TestLogger -INFO - Element Cheezeburger Shirt was added to the cart
+2018-03-19 15:30:36,187 - Utilities.TestLogger -INFO - Element Buckit Shirt was added to the cart
+2018-03-19 15:30:36,294 - Utilities.TestLogger -INFO - Elements in the cart: 
+Lolcat Shirt
+Cheezeburger Shirt
+Buckit Shirt(245, 96)
+2018-03-19 15:30:36,297 - Utilities.TestLogger -INFO - AfterClass is executing ...

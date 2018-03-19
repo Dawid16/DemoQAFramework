@@ -1,6 +1,10 @@
 package SmokeTests;
 
 import BaseTest.ConfigurationForBrowser;
+import Commands.TableSectionDraggablePage;
+import Commands.TableSectionDroppablePage;
+import Pages.DraggablePage;
+import Pages.DroppableBage;
 import Pages.RegistrationPage;
 import Utilities.TestLogger;
 import org.openqa.selenium.support.PageFactory;
@@ -14,8 +18,17 @@ public class AnotherTest extends ConfigurationForBrowser {
 
     @Test(groups = "logging")
     public void testReal() throws Exception{
+        DraggablePage draggablePage = new DraggablePage(driver);
+        DroppableBage droppableBage = new DroppableBage(driver);
 
-        driver.get("http://realmadryt.pl");
+        draggablePage.loadPage();
+        draggablePage.goToParticularTableSection(TableSectionDraggablePage.ConstrainMovement);
+        draggablePage.dragAndCheckHorizontalElem(100);
+        draggablePage.dragAndCheckVerticalElem(100);
+
+        droppableBage.loadPage();
+        droppableBage.goToParticularTableSection(TableSectionDroppablePage.ShoppingCartDemo);
+        droppableBage.addAllShirtsToCart();
 
     }
 }
