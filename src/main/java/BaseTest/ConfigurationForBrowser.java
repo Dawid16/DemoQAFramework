@@ -28,11 +28,11 @@ public class ConfigurationForBrowser {
         driver.manage().timeouts().implicitlyWait(BASE_TIMEOUTS_SECONDS, TimeUnit.SECONDS);
         _wait = new WebDriverWait(driver, BASE_TIMEOUTS_SECONDS);
         TestLogger.log.setLevel(Level.ALL);
-        driver.manage().deleteAllCookies();
     }
 
     @AfterClass(alwaysRun = true)
     public void teardown(){
+        driver.manage().deleteAllCookies();
         TestLogger.log.info("AfterClass is executing ...");
         this.driver.close();
     }
