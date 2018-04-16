@@ -1,53 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89d3d62b-2c3f-418e-9f5a-1c749025911b" name="Default" comment="all recent changes">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Commands/TableSectionMenuPage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Commands/TableSectionResizablePage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Commands/TableSectionSelectablePage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Navigation/MenuSelectorMenuPage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Navigation/TableHeadersMenuPage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Pages/MenuPage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Pages/ResizablePage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Pages/SelectablePage.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestsResults/TestsResults20180314071935.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Pages/MainPage.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/BaseTest/ConfigurationForBrowser.class" afterPath="$PROJECT_DIR$/target/classes/BaseTest/ConfigurationForBrowser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Pages/RegistrationPage.class" afterPath="$PROJECT_DIR$/target/classes/Pages/RegistrationPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Utilities/TestsResults.class" afterPath="$PROJECT_DIR$/target/classes/Utilities/TestsResults.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Utilities/Waits$2.class" afterPath="$PROJECT_DIR$/target/classes/Utilities/Waits$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Utilities/Waits.class" afterPath="$PROJECT_DIR$/target/classes/Utilities/Waits.class" />
+    <list default="true" id="89d3d62b-2c3f-418e-9f5a-1c749025911b" name="Default" comment="all recent changes np" />
+    <list id="d57cb5a8-dbba-4b79-857e-99c124c2479d" name="notposs" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Readme!.txt" afterPath="$PROJECT_DIR$/Readme!.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/application.html" afterPath="$PROJECT_DIR$/log/application.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/testlog.log" afterPath="$PROJECT_DIR$/log/testlog.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/BaseTest/ConfigurationForBrowser.java" afterPath="$PROJECT_DIR$/src/main/java/BaseTest/ConfigurationForBrowser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Commands/DemoTypeMainPage.java" afterPath="$PROJECT_DIR$/src/main/java/Commands/DemoTypeMainPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ElementsStrings/DraggablePageObjects.java" afterPath="$PROJECT_DIR$/src/main/java/ElementsStrings/DraggablePageObjects.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Pages/BaseExtendablePage.java" afterPath="$PROJECT_DIR$/src/main/java/Pages/BaseExtendablePage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Pages/DraggablePage.java" afterPath="$PROJECT_DIR$/src/main/java/Pages/DraggablePage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Pages/DroppableBage.java" afterPath="$PROJECT_DIR$/src/main/java/Pages/DroppableBage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Pages/RegistrationPage.java" afterPath="$PROJECT_DIR$/src/main/java/Pages/RegistrationPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Utilities/CompareImages.java" afterPath="$PROJECT_DIR$/src/main/java/Utilities/CompareImages.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Utilities/DriverFactory.java" afterPath="$PROJECT_DIR$/src/main/java/Utilities/DriverFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Utilities/RandomValuesGenerator.java" afterPath="$PROJECT_DIR$/src/main/java/Utilities/RandomValuesGenerator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Utilities/TestListener.java" afterPath="$PROJECT_DIR$/src/main/java/Utilities/TestListener.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Utilities/TestLogger.java" afterPath="$PROJECT_DIR$/src/main/java/Utilities/TestLogger.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Utilities/TestsResults.java" afterPath="$PROJECT_DIR$/src/main/java/Utilities/TestsResults.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Utilities/Waits.java" afterPath="$PROJECT_DIR$/src/main/java/Utilities/Waits.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/SmokeTests/AnotherTest.java" afterPath="$PROJECT_DIR$/src/test/java/SmokeTests/AnotherTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/SmokeTests/RegistrationTest.java" afterPath="$PROJECT_DIR$/src/test/java/SmokeTests/RegistrationTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/local.properties" afterPath="$PROJECT_DIR$/src/test/resources/local.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/local.properties" afterPath="$PROJECT_DIR$/target/test-classes/local.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Navigation/MenuSelector.java" afterPath="$PROJECT_DIR$/src/main/java/Navigation/MenuSelectorHomePage.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Pages/MainPage.java" afterPath="$PROJECT_DIR$/src/main/java/Pages/HomePage.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/BaseFunctionalTests/ContentMainPageTest.java" afterPath="$PROJECT_DIR$/src/test/java/BaseFunctionalTests/ContentHomePageTest.java" />
     </list>
     <ignored path="DemoQA.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -896,6 +860,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="89d3d62b-2c3f-418e-9f5a-1c749025911b" name="Default" comment="" />
+      <changelist id="d57cb5a8-dbba-4b79-857e-99c124c2479d" name="notposs" comment="" />
       <created>1517339574158</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -971,7 +936,14 @@
       <option name="project" value="LOCAL" />
       <updated>1521747138712</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="all recent changes">
+      <created>1523882453257</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1523882453257</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1026,11 +998,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46928328" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3366174" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2859649" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4368421" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.262634" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.262634" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1112,6 +1084,7 @@
     <MESSAGE value="all" />
     <MESSAGE value="all recent changes" />
     <option name="LAST_COMMIT_MESSAGE" value="all recent changes" />
+    <option name="PRESELECT_EXISTING_CHANGELIST" value="false" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1201,6 +1174,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="257">
           <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1368,6 +1342,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1700">
           <caret line="109" column="5" selection-start-line="109" selection-start-column="5" selection-end-line="109" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
