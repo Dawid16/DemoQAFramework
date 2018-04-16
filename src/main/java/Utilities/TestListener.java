@@ -12,10 +12,10 @@ import java.io.IOException;
  */
 public class TestListener extends TestListenerAdapter {
 
-    public static TestsResults  testsresults = new TestsResults();
+    public static TestsResults testsresults = new TestsResults();
 
     @Override
-    public void onTestSuccess(ITestResult testResult){
+    public void onTestSuccess(ITestResult testResult) {
         System.out.println(testResult.getName() + " was successful.");
         testsresults.incrementPassed();
         System.out.println("PASSED TESTS " + testsresults.getPassed());
@@ -23,7 +23,7 @@ public class TestListener extends TestListenerAdapter {
     }
 
     @Override
-    public void onTestSkipped(ITestResult testResult){
+    public void onTestSkipped(ITestResult testResult) {
         System.out.println(testResult.getName() + " was skipped.");
         testsresults.incrementSkipped();
         System.out.println("SKIPPED TESTS " + testsresults.getSkipped());
@@ -31,7 +31,7 @@ public class TestListener extends TestListenerAdapter {
     }
 
     @Override
-    public void onTestFailure(ITestResult testResult){
+    public void onTestFailure(ITestResult testResult) {
         System.out.println(testResult.getName() + " was failure. \n Throwable " + testResult.getThrowable().getMessage());
         BaseExtendablePage.captureScreenshot(RandomValuesGenerator.getCurrentDate());
         testsresults.incrementFailed();
@@ -40,7 +40,7 @@ public class TestListener extends TestListenerAdapter {
     }
 
     @Override
-    public void onFinish(ITestContext testContext){
+    public void onFinish(ITestContext testContext) {
         try {
             testsresults.writeToFile();
         } catch (IOException e) {

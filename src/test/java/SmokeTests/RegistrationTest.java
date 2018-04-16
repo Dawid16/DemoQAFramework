@@ -1,10 +1,8 @@
 package SmokeTests;
 
 import BaseTest.ConfigurationForBrowser;
-import Pages.MainPage;
 import Pages.RegistrationPage;
 import Utilities.TestListener;
-import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.*;
 
 /**

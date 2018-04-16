@@ -1,3 +1,6 @@
+This is a simple framework for web application testing site: demoqa.com created for learning automation purpose.
+
+
 catalogs:
 
 attachmentForTest- IMG_20170930_174713.jpg - attachment for testing used during registration to application test

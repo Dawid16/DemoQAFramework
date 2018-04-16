@@ -13,7 +13,7 @@ public class RandomValuesGenerator {
 
     public static final String DATE_FORMAT_NOW = "YYYYMMddhhmmss";
 
-    public RandomValuesGenerator(){
+    public RandomValuesGenerator() {
     }
 
     public static String generateRandomUserName() {
@@ -26,23 +26,23 @@ public class RandomValuesGenerator {
         return "uuid" + uuid + "@gmail.com";
     }
 
-    public static String generateRandomString(int lengthOfString){
+    public static String generateRandomString(int lengthOfString) {
         final String data = "0123456789abcdefghijklmnoprqstuvwxyz,./?!%^&*()";
         Random random = new Random();
         StringBuilder stringBuilder = new StringBuilder(lengthOfString);
 
-        for(int i = 0; i<lengthOfString; i++){
+        for (int i = 0; i < lengthOfString; i++) {
             stringBuilder.append(data.charAt(random.nextInt(data.length())));
         }
         return stringBuilder.toString();
     }
 
-    public static int generateRandomNumber(int maxValue){
+    public static int generateRandomNumber(int maxValue) {
         Random random = new Random();
         return random.nextInt(maxValue);
     }
 
-    public static String getCurrentDate(){
+    public static String getCurrentDate() {
         Calendar calendar = Calendar.getInstance();
         SimpleDateFormat sdf = new SimpleDateFormat(DATE_FORMAT_NOW);
         return sdf.format(calendar.getTime());

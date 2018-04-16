@@ -22,21 +22,22 @@ public class ConfigurationForBrowser {
     final int BASE_TIMEOUTS_SECONDS = 5;
 
     @BeforeClass(alwaysRun = true)
-    public void browserSetup() throws Exception{
+    public void browserSetup() throws Exception {
 
         this.driver = getDriver(DriverFactory.getBrowserTypeByProperty());
+
+        driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(BASE_TIMEOUTS_SECONDS, TimeUnit.SECONDS);
         _wait = new WebDriverWait(driver, BASE_TIMEOUTS_SECONDS);
         TestLogger.log.setLevel(Level.ALL);
+        driver.manage().deleteAllCookies();
     }
 
     @AfterClass(alwaysRun = true)
-    public void teardown(){
-        driver.manage().deleteAllCookies();
+    public void teardown() {
         TestLogger.log.info("AfterClass is executing ...");
         this.driver.close();
     }
-
 
 
 }

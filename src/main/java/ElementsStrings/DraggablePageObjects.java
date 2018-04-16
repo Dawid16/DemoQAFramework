@@ -8,9 +8,10 @@ import org.openqa.selenium.support.FindBy;
  */
 public class DraggablePageObjects {
 
-    @FindBy(id = "ui-id-1") static WebElement defaultFunctionalityTableHeader;
+    @FindBy(id = "ui-id-1")
+    static WebElement defaultFunctionalityTableHeader;
 
-    public static WebElement getDefaultFunctionalityTableHeader(){
+    public static WebElement getDefaultFunctionalityTableHeader() {
         return defaultFunctionalityTableHeader;
     }
 

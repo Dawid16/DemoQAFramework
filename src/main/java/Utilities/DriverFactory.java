@@ -20,7 +20,7 @@ import java.net.URL;
  */
 public class DriverFactory {
 
-    public enum BrowserType{
+    public enum BrowserType {
         FIREFOX("firefox"),
         CHROME("chrome"),
         IE("internet_explorer"),
@@ -29,31 +29,31 @@ public class DriverFactory {
 
         private String value;
 
-        BrowserType(String value){
+        BrowserType(String value) {
             this.value = value;
         }
 
-        public String getBrowserName(){
+        public String getBrowserName() {
             return this.value;
         }
 
     }
 
-    public static WebDriver getDriver(BrowserType type) throws Exception{
+    public static WebDriver getDriver(BrowserType type) throws Exception {
 
-        if(PropertyManager.getProperty("USE_GRID").equalsIgnoreCase("true")){
+        if (PropertyManager.getProperty("USE_GRID").equalsIgnoreCase("true")) {
             DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
             desiredCapabilities.setBrowserName(type.getBrowserName());
             desiredCapabilities.setPlatform(Platform.WINDOWS);
             return new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), desiredCapabilities);
         }
 
-        switch(type){
+        switch (type) {
             case FIREFOX:
-                System.setProperty("webdriver.gecko.driver","D://DemoQA//drivers//geckodriver.exe");
+                System.setProperty("webdriver.gecko.driver", "D://DemoQA//drivers//geckodriver.exe");
                 return new FirefoxDriver();
             case CHROME:
-                System.setProperty("webdriver.chrome.driver","D://DemoQA//drivers//chromedriver.exe");
+                System.setProperty("webdriver.chrome.driver", "D://DemoQA//drivers//chromedriver.exe");
                 return new ChromeDriver();
             case IE:
                 return new InternetExplorerDriver();
@@ -64,16 +64,16 @@ public class DriverFactory {
                 System.setProperty("phantomjs.binary.path", source.getAbsolutePath());
                 return new PhantomJSDriver();
             default:
-                System.setProperty("webdriver.chrome.driver","D://DemoQA//drivers//chromedriver.exe");
+                System.setProperty("webdriver.chrome.driver", "D://DemoQA//drivers//chromedriver.exe");
                 return new ChromeDriver();
         }
     }
 
-    public static BrowserType getBrowserTypeByProperty(){
+    public static BrowserType getBrowserTypeByProperty() {
         BrowserType type = null;
         String browserName = (StringUtils.isNotEmpty(System.getenv("BROWSER"))) ? System.getenv("BROWSER") : junitx.util.PropertyManager.getProperty("BROWSER");
-        for(BrowserType bType : BrowserType.values()){
-            if(bType.getBrowserName().equalsIgnoreCase(browserName)){
+        for (BrowserType bType : BrowserType.values()) {
+            if (bType.getBrowserName().equalsIgnoreCase(browserName)) {
                 type = bType;
                 TestLogger.log.info("BROWSER = " + type.getBrowserName());
             }

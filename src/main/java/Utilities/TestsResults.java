@@ -14,25 +14,45 @@ public class TestsResults {
     int skipped;
     int failed;
 
-    public int getPassed() { return this.passed; }
+    public int getPassed() {
+        return this.passed;
+    }
 
-    public int getSkipped(){ return this.skipped; }
+    public int getSkipped() {
+        return this.skipped;
+    }
 
-    public int getFailed(){ return this.failed; }
+    public int getFailed() {
+        return this.failed;
+    }
 
-    public int getTotalTests(){ return (this.failed + this.skipped + this.passed); }
+    public int getTotalTests() {
+        return (this.failed + this.skipped + this.passed);
+    }
 
-    public void incrementPassed(){this.passed++;};
+    public void incrementPassed() {
+        this.passed++;
+    }
 
-    public void incrementSkipped(){this.skipped++;};
+    ;
 
-    public void incrementFailed(){this.failed++;};
+    public void incrementSkipped() {
+        this.skipped++;
+    }
 
-    public void writeToFile() throws IOException{
+    ;
+
+    public void incrementFailed() {
+        this.failed++;
+    }
+
+    ;
+
+    public void writeToFile() throws IOException {
         File file = new File("D:\\DemoQA\\TestsResults\\TestsResults" + RandomValuesGenerator.getCurrentDate() + ".csv");
 
-        try(FileWriter fileWriter = new FileWriter(file);
-            BufferedWriter bufferedWriter = new BufferedWriter(fileWriter)){
+        try (FileWriter fileWriter = new FileWriter(file);
+             BufferedWriter bufferedWriter = new BufferedWriter(fileWriter)) {
             bufferedWriter.write("PASSED: " + this.passed + "\n");
             bufferedWriter.write("SKIPPED: " + this.skipped + "\n");
             bufferedWriter.write("FAILED: " + this.failed + "\n");

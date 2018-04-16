@@ -14,7 +14,9 @@ public class CompareImages {
         SizeMismatch,
         PixelMismatch
 
-    };
+    }
+
+    ;
 
     public static Result compareImage(String baseFile, String actualFile) throws Exception {
 

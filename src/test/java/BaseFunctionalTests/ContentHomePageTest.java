@@ -2,21 +2,21 @@ package BaseFunctionalTests;
 
 import BaseTest.ConfigurationForBrowser;
 import Commands.DemoTypeMainPage;
-import Pages.MainPage;
+import Pages.HomePage;
 import org.testng.annotations.Test;
 
 /**
  * Created by Dawidek on 2018-03-12.
  */
-public class ContentMainPageTest extends ConfigurationForBrowser {
+public class ContentHomePageTest extends ConfigurationForBrowser {
 
     @Test(groups = "logging")
     public void contentMainPageCheck() throws Exception{
 
-        MainPage mainPage = new MainPage(driver);
+        HomePage homePage = new HomePage(driver);
 
-        mainPage.loadPage();
-        MainPage.goToNavTabDemo(DemoTypeMainPage.Tabs);
+        homePage.loadPage();
+        HomePage.goToNavTabDemo(DemoTypeMainPage.Tabs);
         //mainPage.checkPhotos();
         //mainPage.checkAllTabs();
     }

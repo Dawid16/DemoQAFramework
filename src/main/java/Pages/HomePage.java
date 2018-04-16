@@ -1,7 +1,7 @@
 package Pages;
 
 import Commands.DemoTypeMainPage;
-import Navigation.MenuSelector;
+import Navigation.MenuSelectorHomePage;
 import Utilities.TestLogger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -15,7 +15,7 @@ import java.util.List;
 /**
  * Created by Dawidek on 2018-02-13.
  */
-public class MainPage extends BaseExtendablePage {
+public class HomePage extends BaseExtendablePage {
 
     @FindBy(xpath = "//p/a/img[@src= 'http://demoqa.com/wp-content/uploads/2014/08/pattern-14-300x237.png']") WebElement photo1;
     @FindBy(xpath = "//p/i/a/img[@src= 'http://demoqa.com/wp-content/uploads/2014/08/pattern-14-300x237.png']") WebElement photo2;
@@ -26,7 +26,7 @@ public class MainPage extends BaseExtendablePage {
     @FindBy(xpath = "//a[@title='Draggable']") static WebElement draggableListOption;
     @FindBy(xpath = "//a[@title='Tabs']") static WebElement tabsListOption;
 
-    public MainPage(WebDriver driver){
+    public HomePage(WebDriver driver) {
         super(driver);
         this.PAGE_TITLE = "Demoqa | Just another WordPress site";
         this.PAGE_URL = "http://demoqa.com";
@@ -42,13 +42,13 @@ public class MainPage extends BaseExtendablePage {
         }
     }
 
-    public void checkAllTabs(){
+    public void checkAllTabs() {
         List<WebElement> elements = tabs;
         Assert.assertEquals(5, elements.size());
         int start = 0;
         int numOfTab = 1;
 
-        for(WebElement tab : elements) {
+        for (WebElement tab : elements) {
             clickOnElement(tab);
             WebElement description = descriptions.get(start);
             Assert.assertTrue(description.getText().equalsIgnoreCase("Content " + numOfTab + " Title"));
@@ -60,17 +60,17 @@ public class MainPage extends BaseExtendablePage {
 
     private static class DemoDraggable {
         private static void select() {
-            MenuSelector.select(menuHeaderButton, draggableListOption);
+            MenuSelectorHomePage.select(menuHeaderButton, draggableListOption);
         }
     }
 
     private static class DemoTabs {
         private static void select() {
-            MenuSelector.select(menuHeaderButton, tabsListOption);
+            MenuSelectorHomePage.select(menuHeaderButton, tabsListOption);
         }
     }
 
-    public static void goToNavTabDemo(DemoTypeMainPage demoTypeMainPage) {
+    public static void goToNavTabDemo(DemoTypeMainPage demoTypeMainPage) throws Exception {
         switch (demoTypeMainPage) {
             case Draggable:
                 DemoDraggable.select();
